@@ -29,7 +29,21 @@
         <activity
             android:name=".EditStock_EditItem"
             android:windowSoftInputMode="adjustPan" />
-
+        <activity
+            android:name=".EditDesign"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".EditDesign_EditName"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".UpdateDesignInfo"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".DeleteDesign"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".DeleteDesign_Confirm"
+            android:windowSoftInputMode="adjustPan" />
     </application>
 
 </manifest>

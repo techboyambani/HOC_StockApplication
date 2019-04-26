@@ -22,7 +22,7 @@ import static android.os.Environment.DIRECTORY_DOWNLOADS;
 public class MainActivity extends AppCompatActivity {
 
     private TextView textView1, download_app;
-    private Button view_stock, edit_stock, add_item;
+    private Button view_stock, edit_stock, add_item, update_design;
     FirebaseStorage firebaseStorage;
     StorageReference storageReference, sRef;
 
@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         view_stock = (Button)findViewById(R.id.view_stock);
         edit_stock = (Button)findViewById(R.id.edit_stock);
         add_item = (Button)findViewById(R.id.add_design);
+        update_design = (Button)findViewById(R.id.update_design);
         download_app = (TextView)findViewById(R.id.download_app);
 
 
@@ -56,6 +57,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 Intent i = new Intent(MainActivity.this,AddItem.class);
+                startActivity(i);
+                finish();
+            }
+        });
+
+        update_design.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, UpdateDesignInfo.class);
                 startActivity(i);
                 finish();
             }

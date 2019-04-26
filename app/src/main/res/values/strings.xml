@@ -5,13 +5,6 @@
     <string name="title_edit">Edit Stock</string>
     <string name="title_add">Add Item</string>
 
-    <!--activity_main.xml-->
-    <string name="hoc_stock_app">Hari Om Ceramics Stock</string>
-    <string name="view_stock">View Stock</string>
-    <string name="edit_stock">Edit Stock</string>
-    <string name="add_design">Add design</string>
-    <string name="click_latest_app">Download Latest Update</string>
-
     <!--activity_add_item.xml-->
     <string name="add_item">Add Item</string>
     <string name="select_size">Select Size</string>
@@ -19,12 +12,33 @@
     <string name="enter_quanity">Quantity</string>
     <string name="submit">Submit</string>
 
+    <!--activity_delete_design_confirm.xml-->
+    <string name="delete">Delete</string>
+
+
+    <!--activity_main.xml-->
+    <string name="hoc_stock_app">HOC Stock</string>
+    <string name="view_stock">View Stock</string>
+    <string name="edit_stock">Edit Stock</string>
+    <string name="add_design">Add design</string>
+    <string name="update_design_info">Update/Delete Design</string>
+    <string name="click_latest_app">Download Latest Update</string>
+
+    <!--activity_update_designInformation-->
+    <string name="delete_design">Delete Design</string>
+    <string name="change_design_name">Change Design Name</string>
+
+
+
     <!--activity_edit_item.xml-->
     <string name="edit_item">Edit Item</string>
     <string name="selected_name">Selected Name</string>
     <string name="selected_company">Selected Company</string>
     <string name="selected_size">Selected Size</string>
     <string name="selected_quantity">Selected Quantity</string>
+
+    <!--activity_edit_name.xml-->
+    <string name="edit_name">Edit Name</string>
 
     <!--activity_view_stock.xml-->
     <string name="select_sizes">Select Sizes</string>

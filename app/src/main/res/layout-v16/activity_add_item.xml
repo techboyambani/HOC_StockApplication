@@ -154,7 +154,7 @@
         android:fontFamily="@font/googlesans_bold"
         android:gravity="center"
         android:hint="@string/enter_tile_name"
-        android:inputType="text"
+        android:inputType="textCapCharacters"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
         android:textColor="@android:color/black"
