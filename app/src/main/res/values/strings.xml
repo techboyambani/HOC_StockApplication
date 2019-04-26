@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_home">Home</string>
+    <string name="title_view">View Stock</string>
+    <string name="title_edit">Edit Stock</string>
+    <string name="title_add">Add Item</string>
+
+    <!--activity_main.xml-->
+    <string name="hoc_stock_app">Hari Om Ceramics Stock</string>
+    <string name="view_stock">View Stock</string>
+    <string name="edit_stock">Edit Stock</string>
+    <string name="add_design">Add design</string>
+
+    <!--activity_add_item.xml-->
+    <string name="add_item">Add Item</string>
+    <string name="select_size">Select Size</string>
+    <string name="enter_tile_name">Enter Name of Design</string>
+    <string name="enter_quanity">Quantity</string>
+    <string name="submit">Submit</string>
+
+    <!--activity_edit_item.xml-->
+    <string name="edit_item">Edit Item</string>
+    <string name="selected_name">Selected Name</string>
+    <string name="selected_company">Selected Company</string>
+    <string name="selected_size">Selected Size</string>
+    <string name="selected_quantity">Selected Quantity</string>
+
+    <!--activity_view_stock.xml-->
+    <string name="select_sizes">Select Sizes</string>
+    <string name="enter_design_name">Enter Design Name</string>
+    <string name="search">Search</string>
+    <string name="select_company">Select Comapny</string>
+    <string name="back_home">Back</string>
+
+    <!--activity_view_stock_card.xml-->
+    <string name="name">Design Name</string>
+    <string name="company">Design Company</string>
+    <string name="size">Design Size</string>
+    <string name="quantity_no">400</string>
+
+    <!--activity_add_item_tilelist-->
+    <string name="design_name">Design Name</string>
+    <string name="quantity">Quantity</string>
+
+
+</resources>

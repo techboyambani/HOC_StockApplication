@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "469198480454",
+    "firebase_url": "https://hoc-stock-app.firebaseio.com",
+    "project_id": "hoc-stock-app",
+    "storage_bucket": "hoc-stock-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469198480454:android:c703bd883ef8fdcc",
+        "android_client_info": {
+          "package_name": "com.hoc.stockapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469198480454-qdi18okjcgmn3i3t4idd5925lkmtchsu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hoc.stockapp",
+            "certificate_hash": "ae8e1d15c0fe577a117310c4fcbf1f155dfd7975"
+          }
+        },
+        {
+          "client_id": "469198480454-9bdfp4el44fus23qq56p8behjj9l47vg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPbMxb31KmeRoht4qqRtq7lCUjV9Qo2uI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "469198480454-9bdfp4el44fus23qq56p8behjj9l47vg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
