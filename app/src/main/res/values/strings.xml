@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">HOC Stock App</string>
     <string name="title_home">Home</string>
     <string name="title_view">View Stock</string>
     <string name="title_edit">Edit Stock</string>
@@ -10,6 +10,7 @@
     <string name="view_stock">View Stock</string>
     <string name="edit_stock">Edit Stock</string>
     <string name="add_design">Add design</string>
+    <string name="click_latest_app">Download Latest Update</string>
 
     <!--activity_add_item.xml-->
     <string name="add_item">Add Item</string>
