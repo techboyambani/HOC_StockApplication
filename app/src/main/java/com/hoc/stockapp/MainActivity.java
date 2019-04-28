@@ -21,8 +21,8 @@ import static android.os.Environment.DIRECTORY_DOWNLOADS;
 
 public class MainActivity extends AppCompatActivity {
 
-    private TextView textView1, download_app;
-    private Button view_stock, edit_stock, add_item, update_design;
+    private TextView textView1;
+    private Button view_stock, edit_stock, add_item, update_design, download_app;
     FirebaseStorage firebaseStorage;
     StorageReference storageReference, sRef;
 
@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         edit_stock = (Button)findViewById(R.id.edit_stock);
         add_item = (Button)findViewById(R.id.add_design);
         update_design = (Button)findViewById(R.id.update_design);
-        download_app = (TextView)findViewById(R.id.download_app);
+        download_app = (Button)findViewById(R.id.download_app);
 
 
         view_stock.setOnClickListener(new View.OnClickListener() {
@@ -82,12 +82,12 @@ public class MainActivity extends AppCompatActivity {
 
     private void download() {
         storageReference = firebaseStorage.getInstance().getReference();
-        sRef = storageReference.child("HOC_StockApplication_1.0.0.apk");
+        sRef = storageReference.child("HOC_update.apk");
         sRef.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
             @Override
             public void onSuccess(Uri uri) {
                 String url = uri.toString();
-                downloadFile(MainActivity.this, "HOC_StockApplication_1.0.0", ".apk", DIRECTORY_DOWNLOADS, url);
+                downloadFile(MainActivity.this, "HOC_update.apk", ".apk", DIRECTORY_DOWNLOADS, url);
             }
         }).addOnFailureListener(new OnFailureListener() {
             @Override

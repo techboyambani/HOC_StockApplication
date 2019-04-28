@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.widget.AdapterView;
@@ -21,6 +22,7 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 import com.hoc.stockapp.Model.DesignInformation;
 
@@ -32,7 +34,7 @@ public class AddItem extends AppCompatActivity {
     Button addItem, backHome;
     private EditText item_name,quantity;
     FirebaseDatabase mFirebaseDatabase;
-    DatabaseReference myRef, db;
+    DatabaseReference myRef, db, databaseReference;
     String selectedItemText1, selectedItemText2;
 
     protected void onCreate(Bundle savedInstantState){
@@ -126,11 +128,31 @@ public class AddItem extends AppCompatActivity {
 
                 mFirebaseDatabase = FirebaseDatabase.getInstance();
                 myRef = mFirebaseDatabase.getReference();
-                myRef.child("designs").child(name).setValue(new DesignInformation(name, quan, selectedItemText1, selectedItemText2));
 
-                Intent i = new Intent(AddItem.this, MainActivity.class);
-                startActivity(i);
-                finish();
+                Query query = myRef.child("designs").child(name);
+                query.addListenerForSingleValueEvent(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                        if(dataSnapshot.exists()){
+                            for(DataSnapshot issue : dataSnapshot.getChildren()){
+                                Toast.makeText(getApplicationContext(), "Design name already exists.", Toast.LENGTH_SHORT).show();
+                                Log.d("TAG","Design already exists.");
+                            }
+                        }
+                        else{
+                            myRef.child("designs").child(name).setValue(new DesignInformation(name, quan, selectedItemText1, selectedItemText2));
+
+                            Intent i = new Intent(AddItem.this, MainActivity.class);
+                            startActivity(i);
+                            finish();
+                        }
+                    }
+
+                    @Override
+                    public void onCancelled(@NonNull DatabaseError databaseError) {
+
+                    }
+                });
             }
         });
 
