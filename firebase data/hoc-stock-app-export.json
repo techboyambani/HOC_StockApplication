@@ -1,0 +1,3489 @@
+{
+  "companies" : {
+    "bonza" : "BONZA",
+    "brizo" : "Brizo",
+    "coral" : "Coral",
+    "delta" : "Delta",
+    "geogres" : "GeoGres",
+    "mozart" : "Mozart",
+    "multystone" : "Multystone",
+    "other" : "Other",
+    "panara" : "Panara",
+    "sainatary" : "Sainatary",
+    "spartan" : "Spartan",
+    "titanium" : "Titanium"
+  },
+  "designs" : {
+    "301" : {
+      "company" : "Delta",
+      "name" : "301",
+      "quantity" : "166",
+      "size" : "16 x 16"
+    },
+    "374" : {
+      "company" : "Delta",
+      "name" : "374",
+      "quantity" : "26",
+      "size" : "16 x 16"
+    },
+    "375" : {
+      "company" : "Delta",
+      "name" : "375",
+      "quantity" : "178",
+      "size" : "16 x 16"
+    },
+    "376" : {
+      "company" : "Delta",
+      "name" : "376",
+      "quantity" : "66",
+      "size" : "16 x 16"
+    },
+    "377" : {
+      "company" : "Delta",
+      "name" : "377",
+      "quantity" : "164",
+      "size" : "16 x 16"
+    },
+    "378" : {
+      "company" : "Delta",
+      "name" : "378",
+      "quantity" : "169",
+      "size" : "16 x 16"
+    },
+    "382" : {
+      "company" : "Delta",
+      "name" : "382",
+      "quantity" : "190",
+      "size" : "16 x 16"
+    },
+    "440" : {
+      "company" : "Delta",
+      "name" : "440",
+      "quantity" : "177",
+      "size" : "16 x 16"
+    },
+    "442" : {
+      "company" : "Delta",
+      "name" : "442",
+      "quantity" : "177",
+      "size" : "16 x 16"
+    },
+    "8002" : {
+      "company" : "Panara",
+      "name" : "8002",
+      "quantity" : "131",
+      "size" : "24 x 12"
+    },
+    "8004" : {
+      "company" : "Panara",
+      "name" : "8004",
+      "quantity" : "13",
+      "size" : "24 x 12"
+    },
+    "8008" : {
+      "company" : "Panara",
+      "name" : "8008",
+      "quantity" : "62",
+      "size" : "24 x 12"
+    },
+    "8009" : {
+      "company" : "Panara",
+      "name" : "8009",
+      "quantity" : "49",
+      "size" : "24 x 12"
+    },
+    "8013" : {
+      "company" : "Panara",
+      "name" : "8013",
+      "quantity" : "143",
+      "size" : "24 x 12"
+    },
+    "8014" : {
+      "company" : "Panara",
+      "name" : "8014",
+      "quantity" : "46",
+      "size" : "24 x 12"
+    },
+    "8015" : {
+      "company" : "Panara",
+      "name" : "8015",
+      "quantity" : "89",
+      "size" : "24 x 12"
+    },
+    "8016" : {
+      "company" : "Panara",
+      "name" : "8016",
+      "quantity" : "46",
+      "size" : "24 x 12"
+    },
+    "8017" : {
+      "company" : "Panara",
+      "name" : "8017",
+      "quantity" : "94",
+      "size" : "24 x 12"
+    },
+    "8022" : {
+      "company" : "Panara",
+      "name" : "8022",
+      "quantity" : "71",
+      "size" : "24 x 12"
+    },
+    "8026" : {
+      "company" : "Panara",
+      "name" : "8026",
+      "quantity" : "75",
+      "size" : "24 x 12"
+    },
+    "8027" : {
+      "company" : "Panara",
+      "name" : "8027",
+      "quantity" : "23",
+      "size" : "24 x 12"
+    },
+    "8028" : {
+      "company" : "Panara",
+      "name" : "8028",
+      "quantity" : "58",
+      "size" : "24 x 12"
+    },
+    "8501" : {
+      "company" : "Panara",
+      "name" : "8501",
+      "quantity" : "43",
+      "size" : "24 x 12"
+    },
+    "8505" : {
+      "company" : "Panara",
+      "name" : "8505",
+      "quantity" : "0",
+      "size" : "24 x 12"
+    },
+    "9006" : {
+      "company" : "Delta",
+      "name" : "9006",
+      "quantity" : "125",
+      "size" : "16 x 16"
+    },
+    "9007" : {
+      "company" : "Delta",
+      "name" : "9007",
+      "quantity" : "121",
+      "size" : "16 x 16"
+    },
+    "1004 F" : {
+      "company" : "Brizo",
+      "name" : "1004 F",
+      "quantity" : "0",
+      "size" : "24 x 12"
+    },
+    "1004 HL-1" : {
+      "company" : "Brizo",
+      "name" : "1004 HL-1",
+      "quantity" : "78",
+      "size" : "24 x 12"
+    },
+    "1004 L" : {
+      "company" : "Brizo",
+      "name" : "1004 L",
+      "quantity" : "261",
+      "size" : "24 x 12"
+    },
+    "1009 D1" : {
+      "company" : "Brizo",
+      "name" : "1009 D1",
+      "quantity" : "50",
+      "size" : "24 x 12"
+    },
+    "1009 D1 F" : {
+      "company" : "Brizo",
+      "name" : "1009 D1 F",
+      "quantity" : "34",
+      "size" : "24 x 12"
+    },
+    "1009 D2" : {
+      "company" : "Brizo",
+      "name" : "1009 D2",
+      "quantity" : "79",
+      "size" : "24 x 12"
+    },
+    "1009 D2 F" : {
+      "company" : "Brizo",
+      "name" : "1009 D2 F",
+      "quantity" : "25",
+      "size" : "24 x 12"
+    },
+    "1009 HL-1" : {
+      "company" : "Brizo",
+      "name" : "1009 HL-1",
+      "quantity" : "0",
+      "size" : "24 x 12"
+    },
+    "1009 HL-2" : {
+      "company" : "Brizo",
+      "name" : "1009 HL-2",
+      "quantity" : "28",
+      "size" : "24 x 12"
+    },
+    "1009 L" : {
+      "company" : "Brizo",
+      "name" : "1009 L",
+      "quantity" : "171",
+      "size" : "24 x 12"
+    },
+    "1012 D" : {
+      "company" : "Brizo",
+      "name" : "1012 D",
+      "quantity" : "65",
+      "size" : "24 x 12"
+    },
+    "1012 F" : {
+      "company" : "Brizo",
+      "name" : "1012 F",
+      "quantity" : "67",
+      "size" : "24 x 12"
+    },
+    "1012 HL-1" : {
+      "company" : "Brizo",
+      "name" : "1012 HL-1",
+      "quantity" : "63",
+      "size" : "24 x 12"
+    },
+    "1012 L" : {
+      "company" : "Brizo",
+      "name" : "1012 L",
+      "quantity" : "98",
+      "size" : "24 x 12"
+    },
+    "1013 D" : {
+      "company" : "Brizo",
+      "name" : "1013 D",
+      "quantity" : "46",
+      "size" : "24 x 12"
+    },
+    "1013 F" : {
+      "company" : "Brizo",
+      "name" : "1013 F",
+      "quantity" : "55",
+      "size" : "24 x 12"
+    },
+    "1013 HL-1" : {
+      "company" : "Brizo",
+      "name" : "1013 HL-1",
+      "quantity" : "38",
+      "size" : "24 x 12"
+    },
+    "1015 D" : {
+      "company" : "Brizo",
+      "name" : "1015 D",
+      "quantity" : "75",
+      "size" : "24 x 12"
+    },
+    "1015 F" : {
+      "company" : "Brizo",
+      "name" : "1015 F",
+      "quantity" : "25",
+      "size" : "24 x 12"
+    },
+    "1015 HL-1" : {
+      "company" : "Brizo",
+      "name" : "1015 HL-1",
+      "quantity" : "31",
+      "size" : "24 x 12"
+    },
+    "1015 HL-2" : {
+      "company" : "Brizo",
+      "name" : "1015 HL-2",
+      "quantity" : "66",
+      "size" : "24 x 12"
+    },
+    "1015 L" : {
+      "company" : "Brizo",
+      "name" : "1015 L",
+      "quantity" : "265",
+      "size" : "24 x 12"
+    },
+    "1016 D" : {
+      "company" : "Brizo",
+      "name" : "1016 D",
+      "quantity" : "44",
+      "size" : "24 x 12"
+    },
+    "1016 F" : {
+      "company" : "Brizo",
+      "name" : "1016 F",
+      "quantity" : "50",
+      "size" : "24 x 12"
+    },
+    "1016 HL-1" : {
+      "company" : "Brizo",
+      "name" : "1016 HL-1",
+      "quantity" : "21",
+      "size" : "24 x 12"
+    },
+    "1016 L" : {
+      "company" : "Brizo",
+      "name" : "1016 L",
+      "quantity" : "104",
+      "size" : "24 x 12"
+    },
+    "102 F" : {
+      "company" : "Brizo",
+      "name" : "102 F",
+      "quantity" : "0",
+      "size" : "18 x 12"
+    },
+    "102 HL-2" : {
+      "company" : "Brizo",
+      "name" : "102 HL-2",
+      "quantity" : "31",
+      "size" : "18 x 12"
+    },
+    "102 L" : {
+      "company" : "Brizo",
+      "name" : "102 L",
+      "quantity" : "50",
+      "size" : "18 x 12"
+    },
+    "1025 D1" : {
+      "company" : "Brizo",
+      "name" : "1025 D1",
+      "quantity" : "56",
+      "size" : "24 x 12"
+    },
+    "1025 D1 F" : {
+      "company" : "Brizo",
+      "name" : "1025 D1 F",
+      "quantity" : "21",
+      "size" : "24 x 12"
+    },
+    "1025 D2" : {
+      "company" : "Brizo",
+      "name" : "1025 D2",
+      "quantity" : "79",
+      "size" : "24 x 12"
+    },
+    "1025 D2 F" : {
+      "company" : "Brizo",
+      "name" : "1025 D2 F",
+      "quantity" : "42",
+      "size" : "24 x 12"
+    },
+    "1025 HL-1" : {
+      "company" : "Brizo",
+      "name" : "1025 HL-1",
+      "quantity" : "95",
+      "size" : "24 x 12"
+    },
+    "1025 HL-2" : {
+      "company" : "Brizo",
+      "name" : "1025 HL-2",
+      "quantity" : "36",
+      "size" : "24 x 12"
+    },
+    "1025 L" : {
+      "company" : "Brizo",
+      "name" : "1025 L",
+      "quantity" : "204",
+      "size" : "24 x 12"
+    },
+    "1038 D" : {
+      "company" : "Brizo",
+      "name" : "1038 D",
+      "quantity" : "42",
+      "size" : "24 x 12"
+    },
+    "1038 F" : {
+      "company" : "Brizo",
+      "name" : "1038 F",
+      "quantity" : "46",
+      "size" : "24 x 12"
+    },
+    "1038 HL-2" : {
+      "company" : "Brizo",
+      "name" : "1038 HL-2",
+      "quantity" : "30",
+      "size" : "24 x 12"
+    },
+    "1038 L" : {
+      "company" : "Brizo",
+      "name" : "1038 L",
+      "quantity" : "145",
+      "size" : "24 x 12"
+    },
+    "1041 F" : {
+      "company" : "Brizo",
+      "name" : "1041 F",
+      "quantity" : "32",
+      "size" : "24 x 12"
+    },
+    "1041 HL-1" : {
+      "company" : "Brizo",
+      "name" : "1041 HL-1",
+      "quantity" : "24",
+      "size" : "24 x 12"
+    },
+    "1041 L" : {
+      "company" : "Brizo",
+      "name" : "1041 L",
+      "quantity" : "156",
+      "size" : "24 x 12"
+    },
+    "1042 D" : {
+      "company" : "Brizo",
+      "name" : "1042 D",
+      "quantity" : "25",
+      "size" : "24 x 12"
+    },
+    "1042 F" : {
+      "company" : "Brizo",
+      "name" : "1042 F",
+      "quantity" : "4",
+      "size" : "24 x 12"
+    },
+    "1042 HL-1" : {
+      "company" : "Brizo",
+      "name" : "1042 HL-1",
+      "quantity" : "30",
+      "size" : "24 x 12"
+    },
+    "1042 L" : {
+      "company" : "Brizo",
+      "name" : "1042 L",
+      "quantity" : "169",
+      "size" : "24 x 12"
+    },
+    "1043 D" : {
+      "company" : "Brizo",
+      "name" : "1043 D",
+      "quantity" : "38",
+      "size" : "24 x 12"
+    },
+    "1043 F" : {
+      "company" : "Brizo",
+      "name" : "1043 F",
+      "quantity" : "45",
+      "size" : "24 x 12"
+    },
+    "1043 HL-1" : {
+      "company" : "Brizo",
+      "name" : "1043 HL-1",
+      "quantity" : "22",
+      "size" : "24 x 12"
+    },
+    "1043 L" : {
+      "company" : "Brizo",
+      "name" : "1043 L",
+      "quantity" : "97",
+      "size" : "24 x 12"
+    },
+    "1044 D" : {
+      "company" : "Brizo",
+      "name" : "1044 D",
+      "quantity" : "16",
+      "size" : "24 x 12"
+    },
+    "1044 F" : {
+      "company" : "Brizo",
+      "name" : "1044 F",
+      "quantity" : "28",
+      "size" : "24 x 12"
+    },
+    "1044 HL-1" : {
+      "company" : "Brizo",
+      "name" : "1044 HL-1",
+      "quantity" : "22",
+      "size" : "24 x 12"
+    },
+    "1044 HL-2" : {
+      "company" : "Brizo",
+      "name" : "1044 HL-2",
+      "quantity" : "16",
+      "size" : "24 x 12"
+    },
+    "1044 L" : {
+      "company" : "Brizo",
+      "name" : "1044 L",
+      "quantity" : "153",
+      "size" : "24 x 12"
+    },
+    "1045 D" : {
+      "company" : "Brizo",
+      "name" : "1045 D",
+      "quantity" : "41",
+      "size" : "24 x 12"
+    },
+    "1045 F" : {
+      "company" : "Brizo",
+      "name" : "1045 F",
+      "quantity" : "40",
+      "size" : "24 x 12"
+    },
+    "1045 HL-1" : {
+      "company" : "Brizo",
+      "name" : "1045 HL-1",
+      "quantity" : "32",
+      "size" : "24 x 12"
+    },
+    "1045 L" : {
+      "company" : "Brizo",
+      "name" : "1045 L",
+      "quantity" : "67",
+      "size" : "24 x 12"
+    },
+    "1046 D" : {
+      "company" : "Brizo",
+      "name" : "1046 D",
+      "quantity" : "46",
+      "size" : "24 x 12"
+    },
+    "1046 F" : {
+      "company" : "Brizo",
+      "name" : "1046 F",
+      "quantity" : "55",
+      "size" : "24 x 12"
+    },
+    "1046 HL-1" : {
+      "company" : "Brizo",
+      "name" : "1046 HL-1",
+      "quantity" : "61",
+      "size" : "24 x 12"
+    },
+    "1046 L" : {
+      "company" : "Brizo",
+      "name" : "1046 L",
+      "quantity" : "262",
+      "size" : "24 x 12"
+    },
+    "105 D" : {
+      "company" : "Brizo",
+      "name" : "105 D",
+      "quantity" : "23",
+      "size" : "18 x 12"
+    },
+    "105 F" : {
+      "company" : "Brizo",
+      "name" : "105 F",
+      "quantity" : "21",
+      "size" : "18 x 12"
+    },
+    "105 HL-1" : {
+      "company" : "Brizo",
+      "name" : "105 HL-1",
+      "quantity" : "73",
+      "size" : "18 x 12"
+    },
+    "105 L" : {
+      "company" : "Brizo",
+      "name" : "105 L",
+      "quantity" : "260",
+      "size" : "18 x 12"
+    },
+    "1050 D" : {
+      "company" : "Brizo",
+      "name" : "1050 D",
+      "quantity" : "5",
+      "size" : "24 x 12"
+    },
+    "1050 F" : {
+      "company" : "Brizo",
+      "name" : "1050 F",
+      "quantity" : "42",
+      "size" : "24 x 12"
+    },
+    "1050 HL-1" : {
+      "company" : "Brizo",
+      "name" : "1050 HL-1",
+      "quantity" : "21",
+      "size" : "24 x 12"
+    },
+    "1050 L" : {
+      "company" : "Brizo",
+      "name" : "1050 L",
+      "quantity" : "144",
+      "size" : "24 x 12"
+    },
+    "1051 D" : {
+      "company" : "Brizo",
+      "name" : "1051 D",
+      "quantity" : "25",
+      "size" : "24 x 12"
+    },
+    "1051 F" : {
+      "company" : "Brizo",
+      "name" : "1051 F",
+      "quantity" : "23",
+      "size" : "24 x 12"
+    },
+    "1051 HL-1" : {
+      "company" : "Brizo",
+      "name" : "1051 HL-1",
+      "quantity" : "28",
+      "size" : "24 x 12"
+    },
+    "1051 L" : {
+      "company" : "Brizo",
+      "name" : "1051 L",
+      "quantity" : "162",
+      "size" : "24 x 12"
+    },
+    "106 F" : {
+      "company" : "Brizo",
+      "name" : "106 F",
+      "quantity" : "79",
+      "size" : "18 x 12"
+    },
+    "106 HL-1" : {
+      "company" : "Brizo",
+      "name" : "106 HL-1",
+      "quantity" : "90",
+      "size" : "18 x 12"
+    },
+    "106 L" : {
+      "company" : "Brizo",
+      "name" : "106 L",
+      "quantity" : "1",
+      "size" : "18 x 12"
+    },
+    "107 D" : {
+      "company" : "Brizo",
+      "name" : "107 D",
+      "quantity" : "53",
+      "size" : "18 x 12"
+    },
+    "107 F" : {
+      "company" : "Brizo",
+      "name" : "107 F",
+      "quantity" : "30",
+      "size" : "18 x 12"
+    },
+    "107 HL-1" : {
+      "company" : "Brizo",
+      "name" : "107 HL-1",
+      "quantity" : "29",
+      "size" : "18 x 12"
+    },
+    "107 L" : {
+      "company" : "Brizo",
+      "name" : "107 L",
+      "quantity" : "52",
+      "size" : "18 x 12"
+    },
+    "109 F" : {
+      "company" : "Brizo",
+      "name" : "109 F",
+      "quantity" : "36",
+      "size" : "18 x 12"
+    },
+    "109 HL-2" : {
+      "company" : "Brizo",
+      "name" : "109 HL-2",
+      "quantity" : "64",
+      "size" : "18 x 12"
+    },
+    "109 L" : {
+      "company" : "Brizo",
+      "name" : "109 L",
+      "quantity" : "0",
+      "size" : "18 x 12"
+    },
+    "112 D" : {
+      "company" : "Brizo",
+      "name" : "112 D",
+      "quantity" : "9",
+      "size" : "18 x 12"
+    },
+    "112 F" : {
+      "company" : "Brizo",
+      "name" : "112 F",
+      "quantity" : "0",
+      "size" : "18 x 12"
+    },
+    "112 HL-1" : {
+      "company" : "Brizo",
+      "name" : "112 HL-1",
+      "quantity" : "13",
+      "size" : "18 x 12"
+    },
+    "112 L" : {
+      "company" : "Brizo",
+      "name" : "112 L",
+      "quantity" : "102",
+      "size" : "18 x 12"
+    },
+    "114 D" : {
+      "company" : "Brizo",
+      "name" : "114 D",
+      "quantity" : "75",
+      "size" : "18 x 12"
+    },
+    "114 F" : {
+      "company" : "Brizo",
+      "name" : "114 F",
+      "quantity" : "50",
+      "size" : "18 x 12"
+    },
+    "114 HL-1" : {
+      "company" : "Brizo",
+      "name" : "114 HL-1",
+      "quantity" : "68",
+      "size" : "18 x 12"
+    },
+    "114 L" : {
+      "company" : "Brizo",
+      "name" : "114 L",
+      "quantity" : "141",
+      "size" : "18 x 12"
+    },
+    "116 D" : {
+      "company" : "Brizo",
+      "name" : "116 D",
+      "quantity" : "68",
+      "size" : "18 x 12"
+    },
+    "116 F" : {
+      "company" : "Brizo",
+      "name" : "116 F",
+      "quantity" : "35",
+      "size" : "18 x 12"
+    },
+    "116 HL-1" : {
+      "company" : "Brizo",
+      "name" : "116 HL-1",
+      "quantity" : "89",
+      "size" : "18 x 12"
+    },
+    "116 L" : {
+      "company" : "Brizo",
+      "name" : "116 L",
+      "quantity" : "248",
+      "size" : "18 x 12"
+    },
+    "117 D" : {
+      "company" : "Brizo",
+      "name" : "117 D",
+      "quantity" : "48",
+      "size" : "18 x 12"
+    },
+    "117 F" : {
+      "company" : "Brizo",
+      "name" : "117 F",
+      "quantity" : "1",
+      "size" : "18 x 12"
+    },
+    "117 HL-1" : {
+      "company" : "Brizo",
+      "name" : "117 HL-1",
+      "quantity" : "38",
+      "size" : "18 x 12"
+    },
+    "117 L" : {
+      "company" : "Brizo",
+      "name" : "117 L",
+      "quantity" : "80",
+      "size" : "18 x 12"
+    },
+    "119 D" : {
+      "company" : "Brizo",
+      "name" : "119 D",
+      "quantity" : "49",
+      "size" : "18 x 12"
+    },
+    "119 F" : {
+      "company" : "Brizo",
+      "name" : "119 F",
+      "quantity" : "35",
+      "size" : "18 x 12"
+    },
+    "119 HL-1" : {
+      "company" : "Brizo",
+      "name" : "119 HL-1",
+      "quantity" : "30",
+      "size" : "18 x 12"
+    },
+    "119 L" : {
+      "company" : "Brizo",
+      "name" : "119 L",
+      "quantity" : "122",
+      "size" : "18 x 12"
+    },
+    "121 D" : {
+      "company" : "Brizo",
+      "name" : "121 D",
+      "quantity" : "35",
+      "size" : "18 x 12"
+    },
+    "121 F" : {
+      "company" : "Brizo",
+      "name" : "121 F",
+      "quantity" : "5",
+      "size" : "18 x 12"
+    },
+    "121 HL-1" : {
+      "company" : "Brizo",
+      "name" : "121 HL-1",
+      "quantity" : "9",
+      "size" : "18 x 12"
+    },
+    "121 L" : {
+      "company" : "Brizo",
+      "name" : "121 L",
+      "quantity" : "32",
+      "size" : "18 x 12"
+    },
+    "123 D" : {
+      "company" : "Brizo",
+      "name" : "123 D",
+      "quantity" : "14",
+      "size" : "18 x 12"
+    },
+    "123 F" : {
+      "company" : "Brizo",
+      "name" : "123 F",
+      "quantity" : "85",
+      "size" : "18 x 12"
+    },
+    "123 HL-1" : {
+      "company" : "Brizo",
+      "name" : "123 HL-1",
+      "quantity" : "21",
+      "size" : "18 x 12"
+    },
+    "123 L" : {
+      "company" : "Brizo",
+      "name" : "123 L",
+      "quantity" : "281",
+      "size" : "18 x 12"
+    },
+    "125 D" : {
+      "company" : "Brizo",
+      "name" : "125 D",
+      "quantity" : "154",
+      "size" : "18 x 12"
+    },
+    "125 F" : {
+      "company" : "Brizo",
+      "name" : "125 F",
+      "quantity" : "0",
+      "size" : "18 x 12"
+    },
+    "125 HL-1" : {
+      "company" : "Brizo",
+      "name" : "125 HL-1",
+      "quantity" : "73",
+      "size" : "18 x 12"
+    },
+    "125 L" : {
+      "company" : "Brizo",
+      "name" : "125 L",
+      "quantity" : "133",
+      "size" : "18 x 12"
+    },
+    "127 F" : {
+      "company" : "Brizo",
+      "name" : "127 F",
+      "quantity" : "50",
+      "size" : "18 x 12"
+    },
+    "127 HL-1" : {
+      "company" : "Brizo",
+      "name" : "127 HL-1",
+      "quantity" : "35",
+      "size" : "18 x 12"
+    },
+    "127 L" : {
+      "company" : "Brizo",
+      "name" : "127 L",
+      "quantity" : "78",
+      "size" : "18 x 12"
+    },
+    "132 D" : {
+      "company" : "Brizo",
+      "name" : "132 D",
+      "quantity" : "62",
+      "size" : "18 x 12"
+    },
+    "132 F" : {
+      "company" : "Brizo",
+      "name" : "132 F",
+      "quantity" : "43",
+      "size" : "18 x 12"
+    },
+    "132 HL-1" : {
+      "company" : "Brizo",
+      "name" : "132 HL-1",
+      "quantity" : "72",
+      "size" : "18 x 12"
+    },
+    "132 L" : {
+      "company" : "Brizo",
+      "name" : "132 L",
+      "quantity" : "71",
+      "size" : "18 x 12"
+    },
+    "141 D" : {
+      "company" : "Brizo",
+      "name" : "141 D",
+      "quantity" : "2",
+      "size" : "18 x 12"
+    },
+    "141 F" : {
+      "company" : "Brizo",
+      "name" : "141 F",
+      "quantity" : "16",
+      "size" : "18 x 12"
+    },
+    "141 HL-1" : {
+      "company" : "Brizo",
+      "name" : "141 HL-1",
+      "quantity" : "51",
+      "size" : "18 x 12"
+    },
+    "141 L" : {
+      "company" : "Brizo",
+      "name" : "141 L",
+      "quantity" : "212",
+      "size" : "18 x 12"
+    },
+    "147 D" : {
+      "company" : "Brizo",
+      "name" : "147 D",
+      "quantity" : "18",
+      "size" : "18 x 12"
+    },
+    "147 F" : {
+      "company" : "Brizo",
+      "name" : "147 F",
+      "quantity" : "11",
+      "size" : "18 x 12"
+    },
+    "147 HL-1" : {
+      "company" : "Brizo",
+      "name" : "147 HL-1",
+      "quantity" : "17",
+      "size" : "18 x 12"
+    },
+    "147 L" : {
+      "company" : "Brizo",
+      "name" : "147 L",
+      "quantity" : "130",
+      "size" : "18 x 12"
+    },
+    "148 D" : {
+      "company" : "Brizo",
+      "name" : "148 D",
+      "quantity" : "0",
+      "size" : "18 x 12"
+    },
+    "148 F" : {
+      "company" : "Brizo",
+      "name" : "148 F",
+      "quantity" : "54",
+      "size" : "18 x 12"
+    },
+    "148 HL-1" : {
+      "company" : "Brizo",
+      "name" : "148 HL-1",
+      "quantity" : "10",
+      "size" : "18 x 12"
+    },
+    "148 L" : {
+      "company" : "Brizo",
+      "name" : "148 L",
+      "quantity" : "215",
+      "size" : "18 x 12"
+    },
+    "149 F" : {
+      "company" : "Brizo",
+      "name" : "149 F",
+      "quantity" : "44",
+      "size" : "18 x 12"
+    },
+    "149 HL-1" : {
+      "company" : "Brizo",
+      "name" : "149 HL-1",
+      "quantity" : "66",
+      "size" : "18 x 12"
+    },
+    "149 L" : {
+      "company" : "Brizo",
+      "name" : "149 L",
+      "quantity" : "179",
+      "size" : "18 x 12"
+    },
+    "152 D" : {
+      "company" : "Brizo",
+      "name" : "152 D",
+      "quantity" : "53",
+      "size" : "18 x 12"
+    },
+    "152 F" : {
+      "company" : "Brizo",
+      "name" : "152 F",
+      "quantity" : "19",
+      "size" : "18 x 12"
+    },
+    "152 HL-1" : {
+      "company" : "Brizo",
+      "name" : "152 HL-1",
+      "quantity" : "69",
+      "size" : "18 x 12"
+    },
+    "152 L" : {
+      "company" : "Brizo",
+      "name" : "152 L",
+      "quantity" : "225",
+      "size" : "18 x 12"
+    },
+    "154 D" : {
+      "company" : "Brizo",
+      "name" : "154 D",
+      "quantity" : "28",
+      "size" : "18 x 12"
+    },
+    "154 F" : {
+      "company" : "Brizo",
+      "name" : "154 F",
+      "quantity" : "32",
+      "size" : "18 x 12"
+    },
+    "154 HL-1" : {
+      "company" : "Brizo",
+      "name" : "154 HL-1",
+      "quantity" : "91",
+      "size" : "18 x 12"
+    },
+    "154 L" : {
+      "company" : "Brizo",
+      "name" : "154 L",
+      "quantity" : "69",
+      "size" : "18 x 12"
+    },
+    "158 D" : {
+      "company" : "Brizo",
+      "name" : "158 D",
+      "quantity" : "38",
+      "size" : "18 x 12"
+    },
+    "158 F" : {
+      "company" : "Brizo",
+      "name" : "158 F",
+      "quantity" : "38",
+      "size" : "18 x 12"
+    },
+    "158 HL-1" : {
+      "company" : "Brizo",
+      "name" : "158 HL-1",
+      "quantity" : "56",
+      "size" : "18 x 12"
+    },
+    "158 L" : {
+      "company" : "Brizo",
+      "name" : "158 L",
+      "quantity" : "83",
+      "size" : "18 x 12"
+    },
+    "160 HL-1" : {
+      "company" : "Brizo",
+      "name" : "160 HL-1",
+      "quantity" : "71",
+      "size" : "18 x 12"
+    },
+    "2002 HL-1" : {
+      "company" : "Brizo",
+      "name" : "2002 HL-1",
+      "quantity" : "5",
+      "size" : "24 x 12"
+    },
+    "2002 HL-2" : {
+      "company" : "Brizo",
+      "name" : "2002 HL-2",
+      "quantity" : "8",
+      "size" : "24 x 12"
+    },
+    "2002 L" : {
+      "company" : "Brizo",
+      "name" : "2002 L",
+      "quantity" : "90",
+      "size" : "24 x 12"
+    },
+    "2003 HL-1" : {
+      "company" : "Brizo",
+      "name" : "2003 HL-1",
+      "quantity" : "24",
+      "size" : "24 x 12"
+    },
+    "2003 HL-2" : {
+      "company" : "Brizo",
+      "name" : "2003 HL-2",
+      "quantity" : "6",
+      "size" : "24 x 12"
+    },
+    "2003 L" : {
+      "company" : "Brizo",
+      "name" : "2003 L",
+      "quantity" : "77",
+      "size" : "24 x 12"
+    },
+    "2007 D" : {
+      "company" : "Brizo",
+      "name" : "2007 D",
+      "quantity" : "55",
+      "size" : "24 x 12"
+    },
+    "2007 HL-1" : {
+      "company" : "Brizo",
+      "name" : "2007 HL-1",
+      "quantity" : "19",
+      "size" : "24 x 12"
+    },
+    "2007 L" : {
+      "company" : "BONZA",
+      "name" : "2007 L",
+      "quantity" : "49",
+      "size" : "12 x 12"
+    },
+    "5003 D" : {
+      "company" : "Brizo",
+      "name" : "5003 D",
+      "quantity" : "0",
+      "size" : "24 x 12"
+    },
+    "5003 F" : {
+      "company" : "Brizo",
+      "name" : "5003 F",
+      "quantity" : "64",
+      "size" : "24 x 12"
+    },
+    "5003 HL-1" : {
+      "company" : "Brizo",
+      "name" : "5003 HL-1",
+      "quantity" : "36",
+      "size" : "24 x 12"
+    },
+    "5003 L" : {
+      "company" : "Brizo",
+      "name" : "5003 L",
+      "quantity" : "284",
+      "size" : "24 x 12"
+    },
+    "5005 D" : {
+      "company" : "Brizo",
+      "name" : "5005 D",
+      "quantity" : "16",
+      "size" : "24 x 12"
+    },
+    "5005 F" : {
+      "company" : "Brizo",
+      "name" : "5005 F",
+      "quantity" : "0",
+      "size" : "24 x 12"
+    },
+    "5005 HL-1" : {
+      "company" : "Brizo",
+      "name" : "5005 HL-1",
+      "quantity" : "15",
+      "size" : "24 x 12"
+    },
+    "5005 L" : {
+      "company" : "Brizo",
+      "name" : "5005 L",
+      "quantity" : "59",
+      "size" : "24 x 12"
+    },
+    "5008 D" : {
+      "company" : "Brizo",
+      "name" : "5008 D",
+      "quantity" : "44",
+      "size" : "24 x 12"
+    },
+    "5008 F" : {
+      "company" : "Brizo",
+      "name" : "5008 F",
+      "quantity" : "38",
+      "size" : "24 x 12"
+    },
+    "5008 HL-1" : {
+      "company" : "Brizo",
+      "name" : "5008 HL-1",
+      "quantity" : "49",
+      "size" : "24 x 12"
+    },
+    "5008 L" : {
+      "company" : "Brizo",
+      "name" : "5008 L",
+      "quantity" : "142",
+      "size" : "24 x 12"
+    },
+    "501 D" : {
+      "company" : "Brizo",
+      "name" : "501 D",
+      "quantity" : "8",
+      "size" : "18 x 12"
+    },
+    "501 F" : {
+      "company" : "Brizo",
+      "name" : "501 F",
+      "quantity" : "9",
+      "size" : "18 x 12"
+    },
+    "501 HL-1" : {
+      "company" : "Brizo",
+      "name" : "501 HL-1",
+      "quantity" : "28",
+      "size" : "18 x 12"
+    },
+    "501 L" : {
+      "company" : "Brizo",
+      "name" : "501 L",
+      "quantity" : "76",
+      "size" : "18 x 12"
+    },
+    "5010 D" : {
+      "company" : "Brizo",
+      "name" : "5010 D",
+      "quantity" : "0",
+      "size" : "24 x 12"
+    },
+    "5010 F" : {
+      "company" : "Brizo",
+      "name" : "5010 F",
+      "quantity" : "61",
+      "size" : "24 x 12"
+    },
+    "5010 HL-1" : {
+      "company" : "Brizo",
+      "name" : "5010 HL-1",
+      "quantity" : "39",
+      "size" : "24 x 12"
+    },
+    "5010 L" : {
+      "company" : "Brizo",
+      "name" : "5010 L",
+      "quantity" : "209",
+      "size" : "24 x 12"
+    },
+    "5012 D" : {
+      "company" : "Brizo",
+      "name" : "5012 D",
+      "quantity" : "6",
+      "size" : "24 x 12"
+    },
+    "5012 F" : {
+      "company" : "Brizo",
+      "name" : "5012 F",
+      "quantity" : "24",
+      "size" : "24 x 12"
+    },
+    "5012 HL-1" : {
+      "company" : "Brizo",
+      "name" : "5012 HL-1",
+      "quantity" : "0",
+      "size" : "24 x 12"
+    },
+    "5012 L" : {
+      "company" : "Brizo",
+      "name" : "5012 L",
+      "quantity" : "117",
+      "size" : "24 x 12"
+    },
+    "5016 D" : {
+      "company" : "Brizo",
+      "name" : "5016 D",
+      "quantity" : "62",
+      "size" : "24 x 12"
+    },
+    "5016 F" : {
+      "company" : "Brizo",
+      "name" : "5016 F",
+      "quantity" : "8",
+      "size" : "24 x 12"
+    },
+    "5016 HL-1" : {
+      "company" : "Brizo",
+      "name" : "5016 HL-1",
+      "quantity" : "24",
+      "size" : "24 x 12"
+    },
+    "5016 L" : {
+      "company" : "Brizo",
+      "name" : "5016 L",
+      "quantity" : "241",
+      "size" : "24 x 12"
+    },
+    "5017 D" : {
+      "company" : "Brizo",
+      "name" : "5017 D",
+      "quantity" : "44",
+      "size" : "24 x 12"
+    },
+    "5017 F" : {
+      "company" : "Brizo",
+      "name" : "5017 F",
+      "quantity" : "36",
+      "size" : "24 x 12"
+    },
+    "5017 HL-1" : {
+      "company" : "Brizo",
+      "name" : "5017 HL-1",
+      "quantity" : "60",
+      "size" : "24 x 12"
+    },
+    "5017 L" : {
+      "company" : "Brizo",
+      "name" : "5017 L",
+      "quantity" : "132",
+      "size" : "24 x 12"
+    },
+    "5019 D" : {
+      "company" : "Brizo",
+      "name" : "5019 D",
+      "quantity" : "7",
+      "size" : "24 x 12"
+    },
+    "5019 F" : {
+      "company" : "Brizo",
+      "name" : "5019 F",
+      "quantity" : "1",
+      "size" : "24 x 12"
+    },
+    "5019 HL-1" : {
+      "company" : "Brizo",
+      "name" : "5019 HL-1",
+      "quantity" : "23",
+      "size" : "24 x 12"
+    },
+    "5019 L" : {
+      "company" : "Brizo",
+      "name" : "5019 L",
+      "quantity" : "91",
+      "size" : "24 x 12"
+    },
+    "502 D" : {
+      "company" : "Brizo",
+      "name" : "502 D",
+      "quantity" : "29",
+      "size" : "18 x 12"
+    },
+    "502 F" : {
+      "company" : "Brizo",
+      "name" : "502 F",
+      "quantity" : "28",
+      "size" : "18 x 12"
+    },
+    "502 HL-1" : {
+      "company" : "Brizo",
+      "name" : "502 HL-1",
+      "quantity" : "60",
+      "size" : "18 x 12"
+    },
+    "502 L" : {
+      "company" : "Brizo",
+      "name" : "502 L",
+      "quantity" : "77",
+      "size" : "18 x 12"
+    },
+    "5022 D" : {
+      "company" : "Brizo",
+      "name" : "5022 D",
+      "quantity" : "53",
+      "size" : "24 x 12"
+    },
+    "5022 F" : {
+      "company" : "Brizo",
+      "name" : "5022 F",
+      "quantity" : "30",
+      "size" : "24 x 12"
+    },
+    "5022 HL-1" : {
+      "company" : "Brizo",
+      "name" : "5022 HL-1",
+      "quantity" : "32",
+      "size" : "24 x 12"
+    },
+    "5022 L" : {
+      "company" : "Brizo",
+      "name" : "5022 L",
+      "quantity" : "24",
+      "size" : "24 x 12"
+    },
+    "5028 D" : {
+      "company" : "Brizo",
+      "name" : "5028 D",
+      "quantity" : "52",
+      "size" : "24 x 12"
+    },
+    "5028 F" : {
+      "company" : "Brizo",
+      "name" : "5028 F",
+      "quantity" : "57",
+      "size" : "24 x 12"
+    },
+    "5028 HL-1" : {
+      "company" : "Brizo",
+      "name" : "5028 HL-1",
+      "quantity" : "23",
+      "size" : "24 x 12"
+    },
+    "5028 L" : {
+      "company" : "Brizo",
+      "name" : "5028 L",
+      "quantity" : "82",
+      "size" : "24 x 12"
+    },
+    "503 D" : {
+      "company" : "Brizo",
+      "name" : "503 D",
+      "quantity" : "11",
+      "size" : "18 x 12"
+    },
+    "503 F" : {
+      "company" : "Brizo",
+      "name" : "503 F",
+      "quantity" : "29",
+      "size" : "18 x 12"
+    },
+    "503 HL-2" : {
+      "company" : "Brizo",
+      "name" : "503 HL-2",
+      "quantity" : "48",
+      "size" : "18 x 12"
+    },
+    "503 L" : {
+      "company" : "Brizo",
+      "name" : "503 L",
+      "quantity" : "175",
+      "size" : "18 x 12"
+    },
+    "5033 D" : {
+      "company" : "Brizo",
+      "name" : "5033 D",
+      "quantity" : "31",
+      "size" : "24 x 12"
+    },
+    "5033 F" : {
+      "company" : "Brizo",
+      "name" : "5033 F",
+      "quantity" : "17",
+      "size" : "24 x 12"
+    },
+    "5033 HL-1" : {
+      "company" : "Brizo",
+      "name" : "5033 HL-1",
+      "quantity" : "13",
+      "size" : "24 x 12"
+    },
+    "5033 L" : {
+      "company" : "Brizo",
+      "name" : "5033 L",
+      "quantity" : "201",
+      "size" : "24 x 12"
+    },
+    "5034 D" : {
+      "company" : "Brizo",
+      "name" : "5034 D",
+      "quantity" : "0",
+      "size" : "24 x 12"
+    },
+    "5034 F" : {
+      "company" : "Brizo",
+      "name" : "5034 F",
+      "quantity" : "39",
+      "size" : "24 x 12"
+    },
+    "5034 HL" : {
+      "company" : "Brizo",
+      "name" : "5034 HL",
+      "quantity" : "7",
+      "size" : "24 x 12"
+    },
+    "5034 L" : {
+      "company" : "Brizo",
+      "name" : "5034 L",
+      "quantity" : "262",
+      "size" : "24 x 12"
+    },
+    "5035 D" : {
+      "company" : "Brizo",
+      "name" : "5035 D",
+      "quantity" : "0",
+      "size" : "24 x 12"
+    },
+    "5035 F" : {
+      "company" : "Brizo",
+      "name" : "5035 F",
+      "quantity" : "8",
+      "size" : "24 x 12"
+    },
+    "5035 HL-1" : {
+      "company" : "Brizo",
+      "name" : "5035 HL-1",
+      "quantity" : "31",
+      "size" : "24 x 12"
+    },
+    "5035 L" : {
+      "company" : "Brizo",
+      "name" : "5035 L",
+      "quantity" : "88",
+      "size" : "24 x 12"
+    },
+    "5037 D" : {
+      "company" : "Brizo",
+      "name" : "5037 D",
+      "quantity" : "30",
+      "size" : "24 x 12"
+    },
+    "5037 F" : {
+      "company" : "Brizo",
+      "name" : "5037 F",
+      "quantity" : "28",
+      "size" : "24 x 12"
+    },
+    "5037 HL-1" : {
+      "company" : "Brizo",
+      "name" : "5037 HL-1",
+      "quantity" : "43",
+      "size" : "24 x 12"
+    },
+    "5037 HL-2" : {
+      "company" : "Brizo",
+      "name" : "5037 HL-2",
+      "quantity" : "32",
+      "size" : "24 x 12"
+    },
+    "5037 L" : {
+      "company" : "Brizo",
+      "name" : "5037 L",
+      "quantity" : "215",
+      "size" : "24 x 12"
+    },
+    "5038 D" : {
+      "company" : "Brizo",
+      "name" : "5038 D",
+      "quantity" : "39",
+      "size" : "24 x 12"
+    },
+    "5038 F" : {
+      "company" : "Brizo",
+      "name" : "5038 F",
+      "quantity" : "36",
+      "size" : "24 x 12"
+    },
+    "5038 HL-1" : {
+      "company" : "Brizo",
+      "name" : "5038 HL-1",
+      "quantity" : "48",
+      "size" : "24 x 12"
+    },
+    "5038 L" : {
+      "company" : "Brizo",
+      "name" : "5038 L",
+      "quantity" : "143",
+      "size" : "24 x 12"
+    },
+    "5039 D" : {
+      "company" : "Brizo",
+      "name" : "5039 D",
+      "quantity" : "41",
+      "size" : "24 x 12"
+    },
+    "5039 F" : {
+      "company" : "Brizo",
+      "name" : "5039 F",
+      "quantity" : "19",
+      "size" : "24 x 12"
+    },
+    "5039 HL-2" : {
+      "company" : "Brizo",
+      "name" : "5039 HL-2",
+      "quantity" : "55",
+      "size" : "24 x 12"
+    },
+    "5039 L" : {
+      "company" : "Brizo",
+      "name" : "5039 L",
+      "quantity" : "90",
+      "size" : "24 x 12"
+    },
+    "5045 D" : {
+      "company" : "Brizo",
+      "name" : "5045 D",
+      "quantity" : "39",
+      "size" : "24 x 12"
+    },
+    "5045 F" : {
+      "company" : "Brizo",
+      "name" : "5045 F",
+      "quantity" : "75",
+      "size" : "24 x 12"
+    },
+    "5045 HL-1" : {
+      "company" : "Brizo",
+      "name" : "5045 HL-1",
+      "quantity" : "12",
+      "size" : "24 x 12"
+    },
+    "5045 L" : {
+      "company" : "Brizo",
+      "name" : "5045 L",
+      "quantity" : "77",
+      "size" : "24 x 12"
+    },
+    "505 D" : {
+      "company" : "Brizo",
+      "name" : "505 D",
+      "quantity" : "72",
+      "size" : "18 x 12"
+    },
+    "505 F" : {
+      "company" : "Brizo",
+      "name" : "505 F",
+      "quantity" : "42",
+      "size" : "18 x 12"
+    },
+    "505 HL-1" : {
+      "company" : "Brizo",
+      "name" : "505 HL-1",
+      "quantity" : "66",
+      "size" : "18 x 12"
+    },
+    "505 L" : {
+      "company" : "Brizo",
+      "name" : "505 L",
+      "quantity" : "278",
+      "size" : "18 x 12"
+    },
+    "5053 F" : {
+      "company" : "Brizo",
+      "name" : "5053 F",
+      "quantity" : "83",
+      "size" : "24 x 12"
+    },
+    "5053 HL-1" : {
+      "company" : "Brizo",
+      "name" : "5053 HL-1",
+      "quantity" : "47",
+      "size" : "24 x 12"
+    },
+    "5053 L" : {
+      "company" : "Brizo",
+      "name" : "5053 L",
+      "quantity" : "72",
+      "size" : "24 x 12"
+    },
+    "509 D" : {
+      "company" : "Brizo",
+      "name" : "509 D",
+      "quantity" : "46",
+      "size" : "18 x 12"
+    },
+    "509 F" : {
+      "company" : "Brizo",
+      "name" : "509 F",
+      "quantity" : "43",
+      "size" : "18 x 12"
+    },
+    "509 HL-1" : {
+      "company" : "Brizo",
+      "name" : "509 HL-1",
+      "quantity" : "59",
+      "size" : "18 x 12"
+    },
+    "509 L" : {
+      "company" : "Brizo",
+      "name" : "509 L",
+      "quantity" : "115",
+      "size" : "18 x 12"
+    },
+    "511 D" : {
+      "company" : "Brizo",
+      "name" : "511 D",
+      "quantity" : "16",
+      "size" : "18 x 12"
+    },
+    "511 F" : {
+      "company" : "Brizo",
+      "name" : "511 F",
+      "quantity" : "8",
+      "size" : "18 x 12"
+    },
+    "511 HL-1" : {
+      "company" : "Brizo",
+      "name" : "511 HL-1",
+      "quantity" : "37",
+      "size" : "18 x 12"
+    },
+    "511 L" : {
+      "company" : "Brizo",
+      "name" : "511 L",
+      "quantity" : "127",
+      "size" : "18 x 12"
+    },
+    "512 D" : {
+      "company" : "Brizo",
+      "name" : "512 D",
+      "quantity" : "18",
+      "size" : "18 x 12"
+    },
+    "512 F" : {
+      "company" : "Brizo",
+      "name" : "512 F",
+      "quantity" : "20",
+      "size" : "18 x 12"
+    },
+    "512 HL-1" : {
+      "company" : "Brizo",
+      "name" : "512 HL-1",
+      "quantity" : "28",
+      "size" : "18 x 12"
+    },
+    "512 L" : {
+      "company" : "Brizo",
+      "name" : "512 L",
+      "quantity" : "240",
+      "size" : "18 x 12"
+    },
+    "513 D" : {
+      "company" : "Brizo",
+      "name" : "513 D",
+      "quantity" : "69",
+      "size" : "18 x 12"
+    },
+    "513 F" : {
+      "company" : "Brizo",
+      "name" : "513 F",
+      "quantity" : "29",
+      "size" : "18 x 12"
+    },
+    "513 HL-2" : {
+      "company" : "Brizo",
+      "name" : "513 HL-2",
+      "quantity" : "58",
+      "size" : "18 x 12"
+    },
+    "513 L" : {
+      "company" : "Brizo",
+      "name" : "513 L",
+      "quantity" : "329",
+      "size" : "18 x 12"
+    },
+    "517 D" : {
+      "company" : "Brizo",
+      "name" : "517 D",
+      "quantity" : "49",
+      "size" : "18 x 12"
+    },
+    "517 F" : {
+      "company" : "Brizo",
+      "name" : "517 F",
+      "quantity" : "38",
+      "size" : "18 x 12"
+    },
+    "517 HL-1" : {
+      "company" : "Brizo",
+      "name" : "517 HL-1",
+      "quantity" : "52",
+      "size" : "18 x 12"
+    },
+    "517 L" : {
+      "company" : "Brizo",
+      "name" : "517 L",
+      "quantity" : "179",
+      "size" : "18 x 12"
+    },
+    "518 D" : {
+      "company" : "Brizo",
+      "name" : "518 D",
+      "quantity" : "88",
+      "size" : "18 x 12"
+    },
+    "518 F" : {
+      "company" : "Brizo",
+      "name" : "518 F",
+      "quantity" : "52",
+      "size" : "18 x 12"
+    },
+    "518 HL-1" : {
+      "company" : "Brizo",
+      "name" : "518 HL-1",
+      "quantity" : "65",
+      "size" : "18 x 12"
+    },
+    "518 L" : {
+      "company" : "Brizo",
+      "name" : "518 L",
+      "quantity" : "246",
+      "size" : "18 x 12"
+    },
+    "519 D" : {
+      "company" : "Brizo",
+      "name" : "519 D",
+      "quantity" : "69",
+      "size" : "18 x 12"
+    },
+    "519 F" : {
+      "company" : "Brizo",
+      "name" : "519 F",
+      "quantity" : "43",
+      "size" : "18 x 12"
+    },
+    "519 HL-1" : {
+      "company" : "Brizo",
+      "name" : "519 HL-1",
+      "quantity" : "64",
+      "size" : "18 x 12"
+    },
+    "519 L" : {
+      "company" : "Brizo",
+      "name" : "519 L",
+      "quantity" : "250",
+      "size" : "18 x 12"
+    },
+    "520 D" : {
+      "company" : "Brizo",
+      "name" : "520 D",
+      "quantity" : "32",
+      "size" : "18 x 12"
+    },
+    "520 F" : {
+      "company" : "Brizo",
+      "name" : "520 F",
+      "quantity" : "16",
+      "size" : "18 x 12"
+    },
+    "520 HL-1" : {
+      "company" : "Brizo",
+      "name" : "520 HL-1",
+      "quantity" : "56",
+      "size" : "18 x 12"
+    },
+    "520 L" : {
+      "company" : "Brizo",
+      "name" : "520 L",
+      "quantity" : "230",
+      "size" : "18 x 12"
+    },
+    "524 D" : {
+      "company" : "Brizo",
+      "name" : "524 D",
+      "quantity" : "75",
+      "size" : "18 x 12"
+    },
+    "524 F" : {
+      "company" : "Brizo",
+      "name" : "524 F",
+      "quantity" : "35",
+      "size" : "18 x 12"
+    },
+    "524 HL-1" : {
+      "company" : "Brizo",
+      "name" : "524 HL-1",
+      "quantity" : "65",
+      "size" : "18 x 12"
+    },
+    "524 L" : {
+      "company" : "Brizo",
+      "name" : "524 L",
+      "quantity" : "229",
+      "size" : "18 x 12"
+    },
+    "525 D" : {
+      "company" : "Brizo",
+      "name" : "525 D",
+      "quantity" : "8",
+      "size" : "18 x 12"
+    },
+    "525 F" : {
+      "company" : "Brizo",
+      "name" : "525 F",
+      "quantity" : "21",
+      "size" : "18 x 12"
+    },
+    "525 HL-1" : {
+      "company" : "Brizo",
+      "name" : "525 HL-1",
+      "quantity" : "52",
+      "size" : "18 x 12"
+    },
+    "525 L" : {
+      "company" : "Brizo",
+      "name" : "525 L",
+      "quantity" : "274",
+      "size" : "18 x 12"
+    },
+    "526 D" : {
+      "company" : "Brizo",
+      "name" : "526 D",
+      "quantity" : "0",
+      "size" : "18 x 12"
+    },
+    "526 F" : {
+      "company" : "Brizo",
+      "name" : "526 F",
+      "quantity" : "2",
+      "size" : "18 x 12"
+    },
+    "526 HL-1" : {
+      "company" : "Brizo",
+      "name" : "526 HL-1",
+      "quantity" : "20",
+      "size" : "18 x 12"
+    },
+    "526 L" : {
+      "company" : "Brizo",
+      "name" : "526 L",
+      "quantity" : "94",
+      "size" : "18 x 12"
+    },
+    "528 D" : {
+      "company" : "Brizo",
+      "name" : "528 D",
+      "quantity" : "15",
+      "size" : "18 x 12"
+    },
+    "528 F" : {
+      "company" : "Brizo",
+      "name" : "528 F",
+      "quantity" : "15",
+      "size" : "18 x 12"
+    },
+    "528 HL-1" : {
+      "company" : "Brizo",
+      "name" : "528 HL-1",
+      "quantity" : "0",
+      "size" : "18 x 12"
+    },
+    "528 L" : {
+      "company" : "Brizo",
+      "name" : "528 L",
+      "quantity" : "131",
+      "size" : "18 x 12"
+    },
+    "530 D" : {
+      "company" : "Brizo",
+      "name" : "530 D",
+      "quantity" : "16",
+      "size" : "18 x 12"
+    },
+    "530 F" : {
+      "company" : "Brizo",
+      "name" : "530 F",
+      "quantity" : "23",
+      "size" : "18 x 12"
+    },
+    "530 HL-1" : {
+      "company" : "Brizo",
+      "name" : "530 HL-1",
+      "quantity" : "36",
+      "size" : "18 x 12"
+    },
+    "530 L" : {
+      "company" : "Brizo",
+      "name" : "530 L",
+      "quantity" : "140",
+      "size" : "18 x 12"
+    },
+    "535 D" : {
+      "company" : "Brizo",
+      "name" : "535 D",
+      "quantity" : "309",
+      "size" : "18 x 12"
+    },
+    "535 F" : {
+      "company" : "Brizo",
+      "name" : "535 F",
+      "quantity" : "31",
+      "size" : "18 x 12"
+    },
+    "535 HL-1" : {
+      "company" : "Brizo",
+      "name" : "535 HL-1",
+      "quantity" : "66",
+      "size" : "18 x 12"
+    },
+    "535 L" : {
+      "company" : "Brizo",
+      "name" : "535 L",
+      "quantity" : "61",
+      "size" : "18 x 12"
+    },
+    "536 D" : {
+      "company" : "Brizo",
+      "name" : "536 D",
+      "quantity" : "45",
+      "size" : "18 x 12"
+    },
+    "536 F" : {
+      "company" : "Brizo",
+      "name" : "536 F",
+      "quantity" : "32",
+      "size" : "18 x 12"
+    },
+    "536 HL-1" : {
+      "company" : "Brizo",
+      "name" : "536 HL-1",
+      "quantity" : "57",
+      "size" : "18 x 12"
+    },
+    "536 L" : {
+      "company" : "Brizo",
+      "name" : "536 L",
+      "quantity" : "173",
+      "size" : "18 x 12"
+    },
+    "538 D" : {
+      "company" : "Brizo",
+      "name" : "538 D",
+      "quantity" : "58",
+      "size" : "18 x 12"
+    },
+    "538 F" : {
+      "company" : "Brizo",
+      "name" : "538 F",
+      "quantity" : "42",
+      "size" : "18 x 12"
+    },
+    "538 HL-1" : {
+      "company" : "Brizo",
+      "name" : "538 HL-1",
+      "quantity" : "82",
+      "size" : "18 x 12"
+    },
+    "538 L" : {
+      "company" : "Brizo",
+      "name" : "538 L",
+      "quantity" : "161",
+      "size" : "18 x 12"
+    },
+    "ALDER WENGE" : {
+      "company" : "GeoGres",
+      "name" : "ALDER WENGE",
+      "quantity" : "109",
+      "size" : "24 x 24"
+    },
+    "AMAZON 3D" : {
+      "company" : "GeoGres",
+      "name" : "AMAZON 3D",
+      "quantity" : "205",
+      "size" : "24 x 24"
+    },
+    "ANTIQUE MODENA GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "ANTIQUE MODENA GLOSSY",
+      "quantity" : "76",
+      "size" : "48 x 24"
+    },
+    "ANTIQUE RIANO GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "ANTIQUE RIANO GLOSSY",
+      "quantity" : "199",
+      "size" : "48 x 24"
+    },
+    "AREZONA BEIGE MATT" : {
+      "company" : "BONZA",
+      "name" : "AREZONA BEIGE MATT",
+      "quantity" : "4",
+      "size" : "32 x 32"
+    },
+    "AREZONA BLACK MATT" : {
+      "company" : "BONZA",
+      "name" : "AREZONA BLACK MATT",
+      "quantity" : "156",
+      "size" : "32 x 32"
+    },
+    "AREZONA BROWN MATT" : {
+      "company" : "BONZA",
+      "name" : "AREZONA BROWN MATT",
+      "quantity" : "0",
+      "size" : "32 x 32"
+    },
+    "AREZONA CREMA MATT" : {
+      "company" : "BONZA",
+      "name" : "AREZONA CREMA MATT",
+      "quantity" : "23",
+      "size" : "32 x 32"
+    },
+    "AREZONA GREY MATT" : {
+      "company" : "BONZA",
+      "name" : "AREZONA GREY MATT",
+      "quantity" : "113",
+      "size" : "32 x 32"
+    },
+    "AREZONA LIGHT MATT" : {
+      "company" : "BONZA",
+      "name" : "AREZONA LIGHT MATT",
+      "quantity" : "0",
+      "size" : "32 x 32"
+    },
+    "ARMANI BONZE GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "ARMANI BONZE GLOSSY",
+      "quantity" : "85",
+      "size" : "48 x 24"
+    },
+    "ARMANI CREMA GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "ARMANI CREMA GLOSSY",
+      "quantity" : "178",
+      "size" : "48 x 24"
+    },
+    "ASCOTRACE MATT" : {
+      "company" : "BONZA",
+      "name" : "ASCOTRACE MATT",
+      "quantity" : "174",
+      "size" : "24 x 24"
+    },
+    "ASTRON ARENA MATT" : {
+      "company" : "BONZA",
+      "name" : "ASTRON ARENA MATT",
+      "quantity" : "197",
+      "size" : "32 x 32"
+    },
+    "ASTRON BEIGE MATT" : {
+      "company" : "BONZA",
+      "name" : "ASTRON BEIGE MATT",
+      "quantity" : "148",
+      "size" : "32 x 32"
+    },
+    "ASTRON GREY MATT" : {
+      "company" : "BONZA",
+      "name" : "ASTRON GREY MATT",
+      "quantity" : "166",
+      "size" : "32 x 32"
+    },
+    "ASTRON TITANIYO MATT" : {
+      "company" : "BONZA",
+      "name" : "ASTRON TITANIYO MATT",
+      "quantity" : "26",
+      "size" : "32 x 32"
+    },
+    "ASTRON WHITE MATT" : {
+      "company" : "BONZA",
+      "name" : "ASTRON WHITE MATT",
+      "quantity" : "0",
+      "size" : "32 x 32"
+    },
+    "ATRIM BLUE HIGH GLOSS" : {
+      "company" : "BONZA",
+      "name" : "ATRIM BLUE HIGH GLOSS",
+      "quantity" : "39",
+      "size" : "48 x 24"
+    },
+    "BALTIMOR BLACK" : {
+      "company" : "GeoGres",
+      "name" : "BALTIMOR BLACK",
+      "quantity" : "154",
+      "size" : "24 x 24"
+    },
+    "BARCELONA BROWN HIGH GLOSS" : {
+      "company" : "BONZA",
+      "name" : "BARCELONA BROWN HIGH GLOSS",
+      "quantity" : "54",
+      "size" : "48 x 24"
+    },
+    "BARCELONA GREY HIGH GLOSS" : {
+      "company" : "BONZA",
+      "name" : "BARCELONA GREY HIGH GLOSS",
+      "quantity" : "89",
+      "size" : "48 x 24"
+    },
+    "BLACK RUSTIK" : {
+      "company" : "Coral",
+      "name" : "BLACK RUSTIK",
+      "quantity" : "53",
+      "size" : "24 x 24"
+    },
+    "BONZA BOTO CREMA" : {
+      "company" : "BONZA",
+      "name" : "BONZA BOTO CREMA",
+      "quantity" : "6",
+      "size" : "48 x 24"
+    },
+    "BONZA SATVARIYO GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "BONZA SATVARIYO GLOSSY",
+      "quantity" : "96",
+      "size" : "32 x 32"
+    },
+    "BORA WOOD BROWN MATT" : {
+      "company" : "BONZA",
+      "name" : "BORA WOOD BROWN MATT",
+      "quantity" : "0",
+      "size" : "24 x 24"
+    },
+    "BORA WOOD MOKA MATT" : {
+      "company" : "BONZA",
+      "name" : "BORA WOOD MOKA MATT",
+      "quantity" : "0",
+      "size" : "24 x 24"
+    },
+    "BOTACHINO CLASSIC" : {
+      "company" : "GeoGres",
+      "name" : "BOTACHINO CLASSIC",
+      "quantity" : "125",
+      "size" : "24 x 24"
+    },
+    "BOTACHINO LAPATO" : {
+      "company" : "GeoGres",
+      "name" : "BOTACHINO LAPATO",
+      "quantity" : "119",
+      "size" : "24 x 24"
+    },
+    "BOTO ANTIK" : {
+      "company" : "BONZA",
+      "name" : "BOTO ANTIK",
+      "quantity" : "184",
+      "size" : "24 x 24"
+    },
+    "BOTO ARMANI GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "BOTO ARMANI GLOSSY",
+      "quantity" : "25",
+      "size" : "32 x 32"
+    },
+    "BOTO BIANCO" : {
+      "company" : "BONZA",
+      "name" : "BOTO BIANCO",
+      "quantity" : "3",
+      "size" : "24 x 24"
+    },
+    "BOTO CHINO" : {
+      "company" : "BONZA",
+      "name" : "BOTO CHINO",
+      "quantity" : "37",
+      "size" : "24 x 24"
+    },
+    "BRECCIA EON GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "BRECCIA EON GLOSSY",
+      "quantity" : "158",
+      "size" : "48 x 24"
+    },
+    "BRECCIA SEEMIESS GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "BRECCIA SEEMIESS GLOSSY",
+      "quantity" : "172",
+      "size" : "48 x 24"
+    },
+    "BROWN BEIGE GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "BROWN BEIGE GLOSSY",
+      "quantity" : "22",
+      "size" : "48 x 24"
+    },
+    "CAMLOT BEIGE" : {
+      "company" : "GeoGres",
+      "name" : "CAMLOT BEIGE",
+      "quantity" : "168",
+      "size" : "24 x 24"
+    },
+    "CAMLOT BEIGE LAPATO" : {
+      "company" : "BONZA",
+      "name" : "CAMLOT BEIGE LAPATO",
+      "quantity" : "41",
+      "size" : "48 x 24"
+    },
+    "CAMLOT MARFIL" : {
+      "company" : "GeoGres",
+      "name" : "CAMLOT MARFIL",
+      "quantity" : "52",
+      "size" : "24 x 24"
+    },
+    "CARARA BLANCO" : {
+      "company" : "GeoGres",
+      "name" : "CARARA BLANCO",
+      "quantity" : "184",
+      "size" : "24 x 24"
+    },
+    "CIANA CHOCO GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "CIANA CHOCO GLOSSY",
+      "quantity" : "20",
+      "size" : "32 x 32"
+    },
+    "CIANA GREY GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "CIANA GREY GLOSSY",
+      "quantity" : "165",
+      "size" : "32 x 32"
+    },
+    "CLASS WOOD NATURAL" : {
+      "company" : "BONZA",
+      "name" : "CLASS WOOD NATURAL",
+      "quantity" : "63",
+      "size" : "48 x 8"
+    },
+    "CLASS WOOD WALNUT" : {
+      "company" : "BONZA",
+      "name" : "CLASS WOOD WALNUT",
+      "quantity" : "64",
+      "size" : "48 x 8"
+    },
+    "COCO WOOD" : {
+      "company" : "GeoGres",
+      "name" : "COCO WOOD",
+      "quantity" : "117",
+      "size" : "24 x 24"
+    },
+    "COFFEE RUSTIK" : {
+      "company" : "Coral",
+      "name" : "COFFEE RUSTIK",
+      "quantity" : "32",
+      "size" : "24 x 24"
+    },
+    "COMPAC ASH GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "COMPAC ASH GLOSSY",
+      "quantity" : "76",
+      "size" : "48 x 24"
+    },
+    "COMPAC BIANCO GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "COMPAC BIANCO GLOSSY",
+      "quantity" : "70",
+      "size" : "48 x 24"
+    },
+    "COMPAC SMOKE GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "COMPAC SMOKE GLOSSY",
+      "quantity" : "79",
+      "size" : "48 x 24"
+    },
+    "COSTA BLACK HIGH GLOSS" : {
+      "company" : "BONZA",
+      "name" : "COSTA BLACK HIGH GLOSS",
+      "quantity" : "15",
+      "size" : "48 x 24"
+    },
+    "COSTA SKY HIGH GLOSS" : {
+      "company" : "BONZA",
+      "name" : "COSTA SKY HIGH GLOSS",
+      "quantity" : "110",
+      "size" : "48 x 24"
+    },
+    "DAYANA GRESS" : {
+      "company" : "GeoGres",
+      "name" : "DAYANA GRESS",
+      "quantity" : "39",
+      "size" : "24 x 24"
+    },
+    "DAYNA ATTARE GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "DAYNA ATTARE GLOSSY",
+      "quantity" : "0",
+      "size" : "48 x 24"
+    },
+    "DAYNA CLASSIC GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "DAYNA CLASSIC GLOSSY",
+      "quantity" : "15",
+      "size" : "48 x 24"
+    },
+    "DAZZALE GRANDE" : {
+      "company" : "BONZA",
+      "name" : "DAZZALE GRANDE",
+      "quantity" : "135",
+      "size" : "24 x 24"
+    },
+    "DESTINA DESERT MATT" : {
+      "company" : "BONZA",
+      "name" : "DESTINA DESERT MATT",
+      "quantity" : "117",
+      "size" : "48 x 24"
+    },
+    "DESTINA DESET DECOR" : {
+      "company" : "BONZA",
+      "name" : "DESTINA DESET DECOR",
+      "quantity" : "0",
+      "size" : "48 x 8"
+    },
+    "DIAMOND BLACK" : {
+      "company" : "GeoGres",
+      "name" : "DIAMOND BLACK",
+      "quantity" : "80",
+      "size" : "24 x 24"
+    },
+    "DIAMOND WHITE" : {
+      "company" : "GeoGres",
+      "name" : "DIAMOND WHITE",
+      "quantity" : "214",
+      "size" : "24 x 24"
+    },
+    "DURO BEIGE GLOSSY" : {
+      "company" : "Coral",
+      "name" : "DURO BEIGE GLOSSY",
+      "quantity" : "118",
+      "size" : "24 x 24"
+    },
+    "DURO BEIGE MATT" : {
+      "company" : "Coral",
+      "name" : "DURO BEIGE MATT",
+      "quantity" : "79",
+      "size" : "24 x 24"
+    },
+    "DURO BLACK GLOSSY" : {
+      "company" : "Coral",
+      "name" : "DURO BLACK GLOSSY",
+      "quantity" : "79",
+      "size" : "24 x 24"
+    },
+    "DURO BLACK MATT" : {
+      "company" : "Coral",
+      "name" : "DURO BLACK MATT",
+      "quantity" : "141",
+      "size" : "24 x 24"
+    },
+    "DURO BROWN GLOSSY" : {
+      "company" : "Coral",
+      "name" : "DURO BROWN GLOSSY",
+      "quantity" : "150",
+      "size" : "24 x 24"
+    },
+    "DURO BROWN MATT" : {
+      "company" : "Coral",
+      "name" : "DURO BROWN MATT",
+      "quantity" : "40",
+      "size" : "24 x 24"
+    },
+    "DURO COFFEE GLOSSY" : {
+      "company" : "Coral",
+      "name" : "DURO COFFEE GLOSSY",
+      "quantity" : "58",
+      "size" : "24 x 24"
+    },
+    "DURO COFFEE MATT" : {
+      "company" : "Coral",
+      "name" : "DURO COFFEE MATT",
+      "quantity" : "92",
+      "size" : "24 x 24"
+    },
+    "DURO GRAFITE GLOSSY" : {
+      "company" : "Coral",
+      "name" : "DURO GRAFITE GLOSSY",
+      "quantity" : "78",
+      "size" : "24 x 24"
+    },
+    "DURO GRAFITE MATT" : {
+      "company" : "Coral",
+      "name" : "DURO GRAFITE MATT",
+      "quantity" : "1",
+      "size" : "24 x 24"
+    },
+    "DURO SLATE GLOSSY" : {
+      "company" : "Coral",
+      "name" : "DURO SLATE GLOSSY",
+      "quantity" : "215",
+      "size" : "24 x 24"
+    },
+    "DURO SLATE MATT" : {
+      "company" : "Coral",
+      "name" : "DURO SLATE MATT",
+      "quantity" : "209",
+      "size" : "24 x 24"
+    },
+    "DURO TERA GLOSSY" : {
+      "company" : "Coral",
+      "name" : "DURO TERA GLOSSY",
+      "quantity" : "132",
+      "size" : "24 x 24"
+    },
+    "DURO TERA MATT" : {
+      "company" : "Coral",
+      "name" : "DURO TERA MATT",
+      "quantity" : "114",
+      "size" : "24 x 24"
+    },
+    "DUSTER BEIGE" : {
+      "company" : "GeoGres",
+      "name" : "DUSTER BEIGE",
+      "quantity" : "11",
+      "size" : "24 x 24"
+    },
+    "DUSTER GRESS" : {
+      "company" : "GeoGres",
+      "name" : "DUSTER GRESS",
+      "quantity" : "116",
+      "size" : "24 x 24"
+    },
+    "DYNA AMAGE GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "DYNA AMAGE GLOSSY",
+      "quantity" : "53",
+      "size" : "32 x 32"
+    },
+    "DYNA BEIGE" : {
+      "company" : "GeoGres",
+      "name" : "DYNA BEIGE",
+      "quantity" : "0",
+      "size" : "24 x 24"
+    },
+    "EGESTA GREY" : {
+      "company" : "BONZA",
+      "name" : "EGESTA GREY",
+      "quantity" : "126",
+      "size" : "24 x 24"
+    },
+    "EGESTA WHITE" : {
+      "company" : "BONZA",
+      "name" : "EGESTA WHITE",
+      "quantity" : "132",
+      "size" : "24 x 24"
+    },
+    "ELMLI CREMA GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "ELMLI CREMA GLOSSY",
+      "quantity" : "109",
+      "size" : "48 x 24"
+    },
+    "EMINENT ALMAND WOOD" : {
+      "company" : "BONZA",
+      "name" : "EMINENT ALMAND WOOD",
+      "quantity" : "19",
+      "size" : "48 x 24"
+    },
+    "EMINENT SUNSET WOOD" : {
+      "company" : "BONZA",
+      "name" : "EMINENT SUNSET WOOD",
+      "quantity" : "0",
+      "size" : "48 x 24"
+    },
+    "EMPRADECOR DARK LAPATO" : {
+      "company" : "GeoGres",
+      "name" : "EMPRADECOR DARK LAPATO",
+      "quantity" : "0",
+      "size" : "24 x 24"
+    },
+    "EMPRESA OAK" : {
+      "company" : "GeoGres",
+      "name" : "EMPRESA OAK",
+      "quantity" : "33",
+      "size" : "24 x 24"
+    },
+    "EMPRESA PINE" : {
+      "company" : "GeoGres",
+      "name" : "EMPRESA PINE",
+      "quantity" : "113",
+      "size" : "24 x 24"
+    },
+    "ESTONIYA CREMA GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "ESTONIYA CREMA GLOSSY",
+      "quantity" : "19",
+      "size" : "32 x 32"
+    },
+    "EXOTIC BLACK MATT" : {
+      "company" : "BONZA",
+      "name" : "EXOTIC BLACK MATT",
+      "quantity" : "44",
+      "size" : "24 x 24"
+    },
+    "EXOTIC GRIS MATT" : {
+      "company" : "BONZA",
+      "name" : "EXOTIC GRIS MATT",
+      "quantity" : "168",
+      "size" : "24 x 24"
+    },
+    "EXOTIC WHITE MATT" : {
+      "company" : "BONZA",
+      "name" : "EXOTIC WHITE MATT",
+      "quantity" : "127",
+      "size" : "24 x 24"
+    },
+    "FOREST WOOD" : {
+      "company" : "GeoGres",
+      "name" : "FOREST WOOD",
+      "quantity" : "82",
+      "size" : "24 x 24"
+    },
+    "GARNET CREMA MATT" : {
+      "company" : "BONZA",
+      "name" : "GARNET CREMA MATT",
+      "quantity" : "132",
+      "size" : "24 x 24"
+    },
+    "GARNET JELLY MATT" : {
+      "company" : "BONZA",
+      "name" : "GARNET JELLY MATT",
+      "quantity" : "117",
+      "size" : "24 x 24"
+    },
+    "GARNET MUD MATT" : {
+      "company" : "BONZA",
+      "name" : "GARNET MUD MATT",
+      "quantity" : "111",
+      "size" : "24 x 24"
+    },
+    "GEMSTONE NERO MATT" : {
+      "company" : "BONZA",
+      "name" : "GEMSTONE NERO MATT",
+      "quantity" : "172",
+      "size" : "48 x 24"
+    },
+    "GESMAN BEIGE" : {
+      "company" : "BONZA",
+      "name" : "GESMAN BEIGE",
+      "quantity" : "46",
+      "size" : "48 x 8"
+    },
+    "GESMAN WALNUT" : {
+      "company" : "BONZA",
+      "name" : "GESMAN WALNUT",
+      "quantity" : "37",
+      "size" : "48 x 8"
+    },
+    "GRANITY GREY" : {
+      "company" : "BONZA",
+      "name" : "GRANITY GREY",
+      "quantity" : "227",
+      "size" : "24 x 24"
+    },
+    "GRAPHITE BEIGE MATT" : {
+      "company" : "BONZA",
+      "name" : "GRAPHITE BEIGE MATT",
+      "quantity" : "54",
+      "size" : "24 x 24"
+    },
+    "GRAPHITE CHOCO MATT" : {
+      "company" : "BONZA",
+      "name" : "GRAPHITE CHOCO MATT",
+      "quantity" : "66",
+      "size" : "24 x 24"
+    },
+    "GREY RUSTIK" : {
+      "company" : "Coral",
+      "name" : "GREY RUSTIK",
+      "quantity" : "100",
+      "size" : "24 x 24"
+    },
+    "HABITA NATURAL WOOD" : {
+      "company" : "BONZA",
+      "name" : "HABITA NATURAL WOOD",
+      "quantity" : "66",
+      "size" : "48 x 24"
+    },
+    "HIMALIYA ICE" : {
+      "company" : "BONZA",
+      "name" : "HIMALIYA ICE",
+      "quantity" : "221",
+      "size" : "24 x 24"
+    },
+    "ICE PEARL" : {
+      "company" : "BONZA",
+      "name" : "ICE PEARL",
+      "quantity" : "203",
+      "size" : "24 x 24"
+    },
+    "INDIAN STONE HIGH GLOSS" : {
+      "company" : "BONZA",
+      "name" : "INDIAN STONE HIGH GLOSS",
+      "quantity" : "19",
+      "size" : "48 x 24"
+    },
+    "ITALIAN BEIGE GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "ITALIAN BEIGE GLOSSY",
+      "quantity" : "160",
+      "size" : "48 x 24"
+    },
+    "ITALIAN COFFEE GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "ITALIAN COFFEE GLOSSY",
+      "quantity" : "62",
+      "size" : "48 x 24"
+    },
+    "IVORY GLOSSY" : {
+      "company" : "Brizo",
+      "name" : "IVORY GLOSSY",
+      "quantity" : "189",
+      "size" : "18 x 12"
+    },
+    "IVORY MATT" : {
+      "company" : "Brizo",
+      "name" : "IVORY MATT",
+      "quantity" : "50",
+      "size" : "24 x 12"
+    },
+    "KOTA CRYSTAL FULL BODY" : {
+      "company" : "Mozart",
+      "name" : "KOTA CRYSTAL FULL BODY",
+      "quantity" : "32",
+      "size" : "24 x 24"
+    },
+    "KOTA MATT FULL BODY" : {
+      "company" : "Mozart",
+      "name" : "KOTA MATT FULL BODY",
+      "quantity" : "18",
+      "size" : "24 x 24"
+    },
+    "LAKA SKY HIGH GLOSS" : {
+      "company" : "BONZA",
+      "name" : "LAKA SKY HIGH GLOSS",
+      "quantity" : "0",
+      "size" : "48 x 24"
+    },
+    "LENER SAND GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "LENER SAND GLOSSY",
+      "quantity" : "51",
+      "size" : "48 x 24"
+    },
+    "LENER SAND LIGHT GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "LENER SAND LIGHT GLOSSY",
+      "quantity" : "22",
+      "size" : "48 x 24"
+    },
+    "LENZULA GREY MATT" : {
+      "company" : "BONZA",
+      "name" : "LENZULA GREY MATT",
+      "quantity" : "103",
+      "size" : "48 x 24"
+    },
+    "LENZULA TAUPE MATT" : {
+      "company" : "BONZA",
+      "name" : "LENZULA TAUPE MATT",
+      "quantity" : "40",
+      "size" : "48 x 24"
+    },
+    "LENZULA WHITE MATT" : {
+      "company" : "BONZA",
+      "name" : "LENZULA WHITE MATT",
+      "quantity" : "9",
+      "size" : "48 x 24"
+    },
+    "LINIA BEIGE" : {
+      "company" : "GeoGres",
+      "name" : "LINIA BEIGE",
+      "quantity" : "144",
+      "size" : "24 x 24"
+    },
+    "LINIA BROWN" : {
+      "company" : "GeoGres",
+      "name" : "LINIA BROWN",
+      "quantity" : "70",
+      "size" : "24 x 24"
+    },
+    "LIZA BIANCO" : {
+      "company" : "GeoGres",
+      "name" : "LIZA BIANCO",
+      "quantity" : "99",
+      "size" : "24 x 24"
+    },
+    "LIZA MARFIL" : {
+      "company" : "GeoGres",
+      "name" : "LIZA MARFIL",
+      "quantity" : "6",
+      "size" : "24 x 24"
+    },
+    "LIZA NERO" : {
+      "company" : "GeoGres",
+      "name" : "LIZA NERO",
+      "quantity" : "9",
+      "size" : "24 x 24"
+    },
+    "LLOYD GREY GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "LLOYD GREY GLOSSY",
+      "quantity" : "96",
+      "size" : "48 x 24"
+    },
+    "LLOYD WHITE GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "LLOYD WHITE GLOSSY",
+      "quantity" : "56",
+      "size" : "48 x 24"
+    },
+    "LONA GREY" : {
+      "company" : "BONZA",
+      "name" : "LONA GREY",
+      "quantity" : "200",
+      "size" : "24 x 24"
+    },
+    "LONA WHITE" : {
+      "company" : "BONZA",
+      "name" : "LONA WHITE",
+      "quantity" : "146",
+      "size" : "24 x 24"
+    },
+    "LUBY BEIGE" : {
+      "company" : "GeoGres",
+      "name" : "LUBY BEIGE",
+      "quantity" : "77",
+      "size" : "24 x 24"
+    },
+    "LUBY CREMA" : {
+      "company" : "GeoGres",
+      "name" : "LUBY CREMA",
+      "quantity" : "140",
+      "size" : "24 x 24"
+    },
+    "LUNA CREMA" : {
+      "company" : "BONZA",
+      "name" : "LUNA CREMA",
+      "quantity" : "152",
+      "size" : "24 x 24"
+    },
+    "LUX WHITE GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "LUX WHITE GLOSSY",
+      "quantity" : "8",
+      "size" : "48 x 24"
+    },
+    "MAPLE BROWN" : {
+      "company" : "BONZA",
+      "name" : "MAPLE BROWN",
+      "quantity" : "105",
+      "size" : "48 x 8"
+    },
+    "MAPLE MIELE" : {
+      "company" : "BONZA",
+      "name" : "MAPLE MIELE",
+      "quantity" : "41",
+      "size" : "48 x 8"
+    },
+    "MAPLE WENGE" : {
+      "company" : "BONZA",
+      "name" : "MAPLE WENGE",
+      "quantity" : "48",
+      "size" : "48 x 8"
+    },
+    "MARBLE GRIS" : {
+      "company" : "BONZA",
+      "name" : "MARBLE GRIS",
+      "quantity" : "105",
+      "size" : "24 x 24"
+    },
+    "MARFIL SILK" : {
+      "company" : "BONZA",
+      "name" : "MARFIL SILK",
+      "quantity" : "279",
+      "size" : "24 x 24"
+    },
+    "MARME LIGHT MATT" : {
+      "company" : "BONZA",
+      "name" : "MARME LIGHT MATT",
+      "quantity" : "0",
+      "size" : "24 x 24"
+    },
+    "MARME VARDE MATT" : {
+      "company" : "BONZA",
+      "name" : "MARME VARDE MATT",
+      "quantity" : "0",
+      "size" : "24 x 24"
+    },
+    "MARME VARGIS MATT" : {
+      "company" : "BONZA",
+      "name" : "MARME VARGIS MATT",
+      "quantity" : "0",
+      "size" : "24 x 24"
+    },
+    "MARMI CLASSICO GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "MARMI CLASSICO GLOSSY",
+      "quantity" : "0",
+      "size" : "48 x 24"
+    },
+    "MARQUINA" : {
+      "company" : "BONZA",
+      "name" : "MARQUINA",
+      "quantity" : "140",
+      "size" : "24 x 24"
+    },
+    "MELODY WHITE GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "MELODY WHITE GLOSSY",
+      "quantity" : "0",
+      "size" : "32 x 32"
+    },
+    "MIMOSA PINE" : {
+      "company" : "GeoGres",
+      "name" : "MIMOSA PINE",
+      "quantity" : "105",
+      "size" : "24 x 24"
+    },
+    "MIMOSA WENGE" : {
+      "company" : "GeoGres",
+      "name" : "MIMOSA WENGE",
+      "quantity" : "75",
+      "size" : "24 x 24"
+    },
+    "MIX GEOGRES" : {
+      "company" : "GeoGres",
+      "name" : "MIX GEOGRES",
+      "quantity" : "110",
+      "size" : "24 x 24"
+    },
+    "MOCHA CRYSTAL FULL BODY" : {
+      "company" : "Mozart",
+      "name" : "MOCHA CRYSTAL FULL BODY",
+      "quantity" : "0",
+      "size" : "24 x 24"
+    },
+    "MOCHA MARFIL GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "MOCHA MARFIL GLOSSY",
+      "quantity" : "165",
+      "size" : "48 x 24"
+    },
+    "MOCHA MATT FULL BODY" : {
+      "company" : "Mozart",
+      "name" : "MOCHA MATT FULL BODY",
+      "quantity" : "176",
+      "size" : "24 x 24"
+    },
+    "MODENA BEIGE" : {
+      "company" : "BONZA",
+      "name" : "MODENA BEIGE",
+      "quantity" : "134",
+      "size" : "24 x 24"
+    },
+    "MODENA GREY" : {
+      "company" : "BONZA",
+      "name" : "MODENA GREY",
+      "quantity" : "265",
+      "size" : "24 x 24"
+    },
+    "MORME MOKA MATT" : {
+      "company" : "BONZA",
+      "name" : "MORME MOKA MATT",
+      "quantity" : "0",
+      "size" : "24 x 24"
+    },
+    "MUSHROM RUSTIK" : {
+      "company" : "Coral",
+      "name" : "MUSHROM RUSTIK",
+      "quantity" : "67",
+      "size" : "24 x 24"
+    },
+    "NOCE WENGE" : {
+      "company" : "GeoGres",
+      "name" : "NOCE WENGE",
+      "quantity" : "92",
+      "size" : "24 x 24"
+    },
+    "NUT WOOD" : {
+      "company" : "GeoGres",
+      "name" : "NUT WOOD",
+      "quantity" : "10",
+      "size" : "24 x 24"
+    },
+    "OCEANO BEIGE" : {
+      "company" : "BONZA",
+      "name" : "OCEANO BEIGE",
+      "quantity" : "144",
+      "size" : "24 x 24"
+    },
+    "ONICE PEARL" : {
+      "company" : "BONZA",
+      "name" : "ONICE PEARL",
+      "quantity" : "130",
+      "size" : "24 x 24"
+    },
+    "ONYX BRONZE" : {
+      "company" : "BONZA",
+      "name" : "ONYX BRONZE",
+      "quantity" : "0",
+      "size" : "24 x 24"
+    },
+    "ORBITO GREY GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "ORBITO GREY GLOSSY",
+      "quantity" : "5",
+      "size" : "32 x 32"
+    },
+    "ORBITO GREY GLOSSY 48X24" : {
+      "company" : "BONZA",
+      "name" : "ORBITO GREY GLOSSY 48X24",
+      "quantity" : "0",
+      "size" : "48 x 24"
+    },
+    "ORBITO MIST GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "ORBITO MIST GLOSSY",
+      "quantity" : "0",
+      "size" : "32 x 32"
+    },
+    "PIETRA DUSKY MATT" : {
+      "company" : "BONZA",
+      "name" : "PIETRA DUSKY MATT",
+      "quantity" : "6",
+      "size" : "48 x 24"
+    },
+    "PIETRA LEAD MATT" : {
+      "company" : "BONZA",
+      "name" : "PIETRA LEAD MATT",
+      "quantity" : "67",
+      "size" : "48 x 24"
+    },
+    "PIETRA NEAUTRAL MATT" : {
+      "company" : "BONZA",
+      "name" : "PIETRA NEAUTRAL MATT",
+      "quantity" : "50",
+      "size" : "48 x 24"
+    },
+    "PIETRA VIVID MATT" : {
+      "company" : "BONZA",
+      "name" : "PIETRA VIVID MATT",
+      "quantity" : "100",
+      "size" : "48 x 24"
+    },
+    "PLAIN WHITE" : {
+      "company" : "GeoGres",
+      "name" : "PLAIN WHITE",
+      "quantity" : "168",
+      "size" : "24 x 24"
+    },
+    "PLAIN WHITE GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "PLAIN WHITE GLOSSY",
+      "quantity" : "0",
+      "size" : "32 x 32"
+    },
+    "PULPIS BEIGE GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "PULPIS BEIGE GLOSSY",
+      "quantity" : "169",
+      "size" : "48 x 24"
+    },
+    "PULPIS CREMA GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "PULPIS CREMA GLOSSY",
+      "quantity" : "199",
+      "size" : "48 x 24"
+    },
+    "PULPIS GREY GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "PULPIS GREY GLOSSY",
+      "quantity" : "223",
+      "size" : "48 x 24"
+    },
+    "PULPIS GRIS GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "PULPIS GRIS GLOSSY",
+      "quantity" : "29",
+      "size" : "48 x 24"
+    },
+    "QUARTZ CRYSTAL FULL BODY" : {
+      "company" : "Mozart",
+      "name" : "QUARTZ CRYSTAL FULL BODY",
+      "quantity" : "61",
+      "size" : "24 x 24"
+    },
+    "RAINBOW STONE" : {
+      "company" : "BONZA",
+      "name" : "RAINBOW STONE",
+      "quantity" : "137",
+      "size" : "24 x 24"
+    },
+    "REACTION AZUL" : {
+      "company" : "GeoGres",
+      "name" : "REACTION AZUL",
+      "quantity" : "139",
+      "size" : "24 x 24"
+    },
+    "REACTION BEIGE" : {
+      "company" : "GeoGres",
+      "name" : "REACTION BEIGE",
+      "quantity" : "158",
+      "size" : "24 x 24"
+    },
+    "REACTION GREY" : {
+      "company" : "GeoGres",
+      "name" : "REACTION GREY",
+      "quantity" : "192",
+      "size" : "24 x 24"
+    },
+    "REACTION GRIS" : {
+      "company" : "GeoGres",
+      "name" : "REACTION GRIS",
+      "quantity" : "197",
+      "size" : "24 x 24"
+    },
+    "ROVESE" : {
+      "company" : "BONZA",
+      "name" : "ROVESE",
+      "quantity" : "138",
+      "size" : "24 x 24"
+    },
+    "ROYAL BIANCO" : {
+      "company" : "BONZA",
+      "name" : "ROYAL BIANCO",
+      "quantity" : "73",
+      "size" : "24 x 24"
+    },
+    "ROYAL NATURAL WOOD" : {
+      "company" : "BONZA",
+      "name" : "ROYAL NATURAL WOOD",
+      "quantity" : "184",
+      "size" : "48 x 24"
+    },
+    "ROYAL ONYX GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "ROYAL ONYX GLOSSY",
+      "quantity" : "99",
+      "size" : "48 x 24"
+    },
+    "RUST BLACK MATT" : {
+      "company" : "BONZA",
+      "name" : "RUST BLACK MATT",
+      "quantity" : "177",
+      "size" : "48 x 24"
+    },
+    "SANDAL WOOD" : {
+      "company" : "GeoGres",
+      "name" : "SANDAL WOOD",
+      "quantity" : "144",
+      "size" : "24 x 24"
+    },
+    "SENSI BROWN HIGH GLOSS" : {
+      "company" : "BONZA",
+      "name" : "SENSI BROWN HIGH GLOSS",
+      "quantity" : "11",
+      "size" : "48 x 24"
+    },
+    "SERRA BLANCO ROCKER" : {
+      "company" : "BONZA",
+      "name" : "SERRA BLANCO ROCKER",
+      "quantity" : "0",
+      "size" : "48 x 24"
+    },
+    "SERRA NERO ROCKER" : {
+      "company" : "BONZA",
+      "name" : "SERRA NERO ROCKER",
+      "quantity" : "12",
+      "size" : "48 x 24"
+    },
+    "SETTLE BEIGE GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "SETTLE BEIGE GLOSSY",
+      "quantity" : "110",
+      "size" : "48 x 24"
+    },
+    "SETTLE GRIS GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "SETTLE GRIS GLOSSY",
+      "quantity" : "75",
+      "size" : "48 x 24"
+    },
+    "SETTLE LIGHT GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "SETTLE LIGHT GLOSSY",
+      "quantity" : "76",
+      "size" : "48 x 24"
+    },
+    "SETTLE TAUPE GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "SETTLE TAUPE GLOSSY",
+      "quantity" : "89",
+      "size" : "48 x 24"
+    },
+    "SLATE RUSTIK" : {
+      "company" : "Coral",
+      "name" : "SLATE RUSTIK",
+      "quantity" : "41",
+      "size" : "24 x 24"
+    },
+    "SNOW CARARA" : {
+      "company" : "BONZA",
+      "name" : "SNOW CARARA",
+      "quantity" : "61",
+      "size" : "24 x 24"
+    },
+    "SNOW WHITE - PLAIN WHITE" : {
+      "company" : "BONZA",
+      "name" : "SNOW WHITE - PLAIN WHITE",
+      "quantity" : "158",
+      "size" : "24 x 24"
+    },
+    "SPARKLE CURVE" : {
+      "company" : "BONZA",
+      "name" : "SPARKLE CURVE",
+      "quantity" : "70",
+      "size" : "24 x 24"
+    },
+    "STATUARIO" : {
+      "company" : "BONZA",
+      "name" : "STATUARIO",
+      "quantity" : "143",
+      "size" : "24 x 24"
+    },
+    "STATUARIO GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "STATUARIO GLOSSY",
+      "quantity" : "0",
+      "size" : "48 x 24"
+    },
+    "STONE BEIGE MATT" : {
+      "company" : "BONZA",
+      "name" : "STONE BEIGE MATT",
+      "quantity" : "32",
+      "size" : "24 x 24"
+    },
+    "STONE CHOCO MATT" : {
+      "company" : "BONZA",
+      "name" : "STONE CHOCO MATT",
+      "quantity" : "53",
+      "size" : "24 x 24"
+    },
+    "STONE GREY MATT" : {
+      "company" : "BONZA",
+      "name" : "STONE GREY MATT",
+      "quantity" : "34",
+      "size" : "24 x 24"
+    },
+    "STONE LIGHT MATT" : {
+      "company" : "BONZA",
+      "name" : "STONE LIGHT MATT",
+      "quantity" : "72",
+      "size" : "24 x 24"
+    },
+    "STONER BEIGE GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "STONER BEIGE GLOSSY",
+      "quantity" : "0",
+      "size" : "32 x 32"
+    },
+    "SUPER WHITE FULL BODY" : {
+      "company" : "Mozart",
+      "name" : "SUPER WHITE FULL BODY",
+      "quantity" : "49",
+      "size" : "24 x 24"
+    },
+    "TALVARO BEIGE" : {
+      "company" : "GeoGres",
+      "name" : "TALVARO BEIGE",
+      "quantity" : "241",
+      "size" : "24 x 24"
+    },
+    "TEGEL BROWN MATT" : {
+      "company" : "BONZA",
+      "name" : "TEGEL BROWN MATT",
+      "quantity" : "127",
+      "size" : "24 x 24"
+    },
+    "TEGEL CREMA MATT" : {
+      "company" : "BONZA",
+      "name" : "TEGEL CREMA MATT",
+      "quantity" : "207",
+      "size" : "24 x 24"
+    },
+    "TEGEL MARBO MATT" : {
+      "company" : "BONZA",
+      "name" : "TEGEL MARBO MATT",
+      "quantity" : "49",
+      "size" : "24 x 24"
+    },
+    "TEGEL WHITE MATT" : {
+      "company" : "BONZA",
+      "name" : "TEGEL WHITE MATT",
+      "quantity" : "74",
+      "size" : "24 x 24"
+    },
+    "TESTING" : {
+      "company" : "Brizo",
+      "name" : "TESTING",
+      "quantity" : "20",
+      "size" : "18 x 12"
+    },
+    "TIMBER BROWN MATT" : {
+      "company" : "BONZA",
+      "name" : "TIMBER BROWN MATT",
+      "quantity" : "219",
+      "size" : "24 x 24"
+    },
+    "TRAVENTINO AJUL" : {
+      "company" : "GeoGres",
+      "name" : "TRAVENTINO AJUL",
+      "quantity" : "67",
+      "size" : "24 x 24"
+    },
+    "TRENDZ BLACK MATT" : {
+      "company" : "BONZA",
+      "name" : "TRENDZ BLACK MATT",
+      "quantity" : "144",
+      "size" : "24 x 24"
+    },
+    "TRENDZ BROWN MATT" : {
+      "company" : "BONZA",
+      "name" : "TRENDZ BROWN MATT",
+      "quantity" : "117",
+      "size" : "24 x 24"
+    },
+    "TRENDZ GREY MATT" : {
+      "company" : "BONZA",
+      "name" : "TRENDZ GREY MATT",
+      "quantity" : "162",
+      "size" : "24 x 24"
+    },
+    "TRENDZ LIGHT MATT" : {
+      "company" : "BONZA",
+      "name" : "TRENDZ LIGHT MATT",
+      "quantity" : "171",
+      "size" : "24 x 24"
+    },
+    "TRENDZ MISRAL MATT" : {
+      "company" : "BONZA",
+      "name" : "TRENDZ MISRAL MATT",
+      "quantity" : "101",
+      "size" : "24 x 24"
+    },
+    "TRENDZ WHITE MATT" : {
+      "company" : "BONZA",
+      "name" : "TRENDZ WHITE MATT",
+      "quantity" : "0",
+      "size" : "24 x 24"
+    },
+    "TREVENTINO CREMA GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "TREVENTINO CREMA GLOSSY",
+      "quantity" : "46",
+      "size" : "48 x 24"
+    },
+    "TROPICAL" : {
+      "company" : "Mozart",
+      "name" : "TROPICAL",
+      "quantity" : "70",
+      "size" : "24 x 24"
+    },
+    "ULTRA SPARKAL LAPATO" : {
+      "company" : "BONZA",
+      "name" : "ULTRA SPARKAL LAPATO",
+      "quantity" : "155",
+      "size" : "48 x 24"
+    },
+    "VINYLE COPPER GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "VINYLE COPPER GLOSSY",
+      "quantity" : "75",
+      "size" : "48 x 24"
+    },
+    "VINYLE NACAR GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "VINYLE NACAR GLOSSY",
+      "quantity" : "83",
+      "size" : "48 x 24"
+    },
+    "VINYLE PLOMO GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "VINYLE PLOMO GLOSSY",
+      "quantity" : "87",
+      "size" : "48 x 24"
+    },
+    "VIOLA WHITE" : {
+      "company" : "GeoGres",
+      "name" : "VIOLA WHITE",
+      "quantity" : "76",
+      "size" : "24 x 24"
+    },
+    "VOLKAS WHITE GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "VOLKAS WHITE GLOSSY",
+      "quantity" : "0",
+      "size" : "48 x 24"
+    },
+    "WENGE WOOD" : {
+      "company" : "GeoGres",
+      "name" : "WENGE WOOD",
+      "quantity" : "0",
+      "size" : "24 x 24"
+    },
+    "WHITE GLOSSY" : {
+      "company" : "Brizo",
+      "name" : "WHITE GLOSSY",
+      "quantity" : "0",
+      "size" : "18 x 12"
+    },
+    "WHITE GLOSSY 24X12" : {
+      "company" : "Brizo",
+      "name" : "WHITE GLOSSY 24X12",
+      "quantity" : "178",
+      "size" : "24 x 12"
+    },
+    "WHITE MATT" : {
+      "company" : "Brizo",
+      "name" : "WHITE MATT",
+      "quantity" : "64",
+      "size" : "18 x 12"
+    },
+    "WHITE MATT 12X12" : {
+      "company" : "Brizo",
+      "name" : "WHITE MATT 12X12",
+      "quantity" : "120",
+      "size" : "12 x 12"
+    },
+    "WHITE MATT 24X12" : {
+      "company" : "Brizo",
+      "name" : "WHITE MATT 24X12",
+      "quantity" : "204",
+      "size" : "24 x 12"
+    },
+    "WHITE PROTHRO GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "WHITE PROTHRO GLOSSY",
+      "quantity" : "129",
+      "size" : "48 x 24"
+    },
+    "XL GREY FULL BODY" : {
+      "company" : "Mozart",
+      "name" : "XL GREY FULL BODY",
+      "quantity" : "172",
+      "size" : "24 x 24"
+    },
+    "YOSK BEIGE" : {
+      "company" : "BONZA",
+      "name" : "YOSK BEIGE",
+      "quantity" : "84",
+      "size" : "24 x 24"
+    },
+    "YOSK BROWN" : {
+      "company" : "BONZA",
+      "name" : "YOSK BROWN",
+      "quantity" : "142",
+      "size" : "24 x 24"
+    },
+    "ZADE TEAK" : {
+      "company" : "GeoGres",
+      "name" : "ZADE TEAK",
+      "quantity" : "201",
+      "size" : "24 x 24"
+    },
+    "ZENITH CREMA" : {
+      "company" : "GeoGres",
+      "name" : "ZENITH CREMA",
+      "quantity" : "0",
+      "size" : "24 x 24"
+    },
+    "ZENITH GRAFITE" : {
+      "company" : "GeoGres",
+      "name" : "ZENITH GRAFITE",
+      "quantity" : "0",
+      "size" : "24 x 24"
+    },
+    "ZENITH GRIGRO" : {
+      "company" : "GeoGres",
+      "name" : "ZENITH GRIGRO",
+      "quantity" : "9",
+      "size" : "24 x 24"
+    },
+    "ZESTO BEIGE GLOSSY" : {
+      "company" : "BONZA",
+      "name" : "ZESTO BEIGE GLOSSY",
+      "quantity" : "0",
+      "size" : "32 x 32"
+    }
+  },
+  "size" : {
+    "12x12" : "12 x 12",
+    "12x8" : "12 x 8",
+    "15x10" : "15 x 10",
+    "16x16" : "16 x 16",
+    "18x12" : "18 x 12",
+    "24x12" : "24 x 12",
+    "24x24" : "24 x 24",
+    "30x10" : "30 x 10",
+    "32x32" : "32 x 32",
+    "36x12" : "36 x 12",
+    "48x24" : "48 x 24",
+    "48x8" : "48 x 8",
+    "64x32" : "64 x 32"
+  }
+}
