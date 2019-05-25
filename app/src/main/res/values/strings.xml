@@ -5,6 +5,68 @@
     <string name="title_edit">Edit Stock</string>
     <string name="title_add">Add Item</string>
 
+    <!--activity_main.xml-->
+    <string name="stock_manager">Stock Manager</string>
+    <string name="app_des">An stock management solution for Tile sellers.</string>
+    <string name="developer">Developed by Raj Ambani</string>
+
+    <!--activity_login.xml-->
+    <string name="login">Log In</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="phome_number_hint">XXXXXXXX94</string>
+    <string name="password_hint">********</string>
+
+    <!--activity_sign_up.xml-->
+    <string name="sign_up">Create an Account</string>
+    <string name="enter_name">Name</string>
+    <string name="enter_email">Email Id</string>
+    <string name="enter_phonenumber">Phone Number</string>
+    <string name="enter_password">Password</string>
+    <string name="enter_organization">Organization</string>
+    <string name="back_log_in">Back to Log In</string>
+    <string name="next">Next</string>
+    <string name="already_have_accoount">Already have account ? Sign in</string>
+    <string name="generate_otp">Get OTP</string>
+    <string name="generate_otp_des">It may take 1-2 minutes!</string>
+    <string name="enter_otp">Enter OTP</string>
+
+    <!--activity_fragment_home.xml-->
+    <string name="home">Home</string>
+    <string name="manage_stock">Manage Stock</string>
+    <string name="manage_design">Manage Designs</string>
+    <string name="edit_design">Edit Design</string>
+    <string name="manage_company">Manage Companies</string>
+    <string name="add_company">Add Company</string>
+    <string name="add_size">Add Size</string>
+    <string name="multiline_edit_stock">Edit\nStock</string>
+    <string name="multiline_add_design">Add\nDesign</string>
+    <string name="multiline_edit_design">Edit\nDesign</string>
+    <string name="multiline_add_company">Add\nCompany</string>
+    <string name="multiline_add_size">Add\nSize</string>
+
+    <!--activity_fragment_search.xml-->
+    <string name="multiline_view_stock">View\nStock</string>
+
+    <!--activity_fragment_profile.xml-->
+    <string name="profile">Profile</string>
+    <string name="company_name">Company Name</string>
+    <string name="email">Email Id</string>
+
+    <!--activity_add_company.xml-->
+    <string name="add_new_company">Add New Company</string>
+    <string name="enter_company_name">Name of Company</string>
+
+    <!--activity_add_company_size.xml-->
+    <string name="add_new_size">Add New Size</string>
+    <string name="choose_company">Choose your company</string>
+    <string name="select_appropriate_size">Select appropriate Size</string>
+    <string name="x">x</string>
+
+    <!--activity_add_company_design.xml-->
+    <string name="add_new_design">Add New Design</string>
+    <string name="choose_size">Choose your size</string>
+    <string name="enter_design_quantity">Enter Design Quantity</string>
+
     <!--activity_add_item.xml-->
     <string name="add_item">Add Item</string>
     <string name="select_size">Select Size</string>
@@ -16,13 +78,16 @@
     <string name="delete">Delete</string>
 
 
-    <!--activity_main.xml-->
-    <string name="hoc_stock_app">HOC Stock</string>
+    <!--activity_home.xml-->
+    <string name="hoc">H.O.C.</string>
+    <string name="hoc_full">Hari Om Ceramics</string>
     <string name="view_stock">View Stock</string>
     <string name="edit_stock">Edit Stock</string>
     <string name="add_design">Add design</string>
     <string name="update_design_info">Update/Delete Design</string>
     <string name="click_latest_app">Download Latest Update</string>
+
+
 
     <!--activity_update_designInformation-->
     <string name="delete_design">Delete Design</string>
@@ -39,6 +104,7 @@
 
     <!--activity_edit_name.xml-->
     <string name="edit_name">Edit Name</string>
+    <string name="edit_description">Add Description</string>
 
     <!--activity_view_stock.xml-->
     <string name="select_sizes">Select Sizes</string>
@@ -49,9 +115,11 @@
 
     <!--activity_view_stock_card.xml-->
     <string name="name">Design Name</string>
-    <string name="company">Design Company</string>
-    <string name="size">Design Size</string>
-    <string name="quantity_no">400</string>
+    <string name="company">Company</string>
+    <string name="size">Size</string>
+    <string name="quantity_no">Quantity</string>
+    <string name="description">Description</string>
+    <string name="batch">Batch</string>
 
     <!--activity_add_item_tilelist-->
     <string name="design_name">Design Name</string>

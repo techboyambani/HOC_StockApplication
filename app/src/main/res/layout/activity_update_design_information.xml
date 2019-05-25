@@ -28,7 +28,7 @@
         android:layout_marginBottom="8dp"
         android:fontFamily="@font/googlesans_bold"
         android:gravity="center"
-        android:text="@string/hoc_stock_app"
+        android:text="hoc_stock_app"
         android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
         android:textSize="50sp"
         android:textStyle="bold"

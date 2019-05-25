@@ -6,7 +6,6 @@ import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
-
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.LayoutInflater;
@@ -14,9 +13,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
+import android.widget.ProgressBar;
 
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -24,7 +27,6 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 import com.hoc.stockapp.Adapter.EditStock_MyAdapter;
-import com.hoc.stockapp.Adapter.ViewStock_MyAdapter;
 import com.hoc.stockapp.Model.DesignInformation;
 import com.hoc.stockapp.ViewHolder.DesignViewHolder;
 
@@ -32,37 +34,43 @@ import java.util.ArrayList;
 
 public class EditStock extends AppCompatActivity implements EditStock_MyAdapter.OnDesignClickListener {
 
-    public static final String EXTRA_QUANTIY = "designQuantity";
-    public static final String EXTRA_NAME = "designName";
-    public static final String EXTRA_COMPANY = "designCompany";
-    public static final String EXTRA_SIZE = "designSize";
+    private Button bSubmit;
+    private EditText tDesignName;
+    private RecyclerView rRecyclerView;
+    private FirebaseRecyclerAdapter<DesignInformation, DesignViewHolder> mAdapter;
+    private FirebaseRecyclerOptions<DesignInformation> mOptions;
+    private DatabaseReference mDatabaseReference;
+    private FirebaseAuth mFirebaseAuth;
+    private FirebaseUser mFirebaseUser;
+    private ArrayList<DesignInformation> arrayList;
+    private ImageButton bBack;
+    private ProgressBar pProgressBar;
 
-    Button submit;
-    EditText designName;
-    RecyclerView recyclerView;
-    FirebaseRecyclerAdapter<DesignInformation, DesignViewHolder> adapter;
-    FirebaseRecyclerOptions<DesignInformation> options;
-    DatabaseReference databaseReference;
-    ArrayList<DesignInformation> arrayList;
+    public static final String EXTRA_NAME = "designName";
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_edit_stock);
+        setContentView(R.layout.activity_view_stock);
 
-        submit = (Button)findViewById(R.id.submit);
+        pProgressBar = (ProgressBar) findViewById(R.id.progressBar);
+        bBack = (ImageButton) findViewById(R.id.back);
+        bSubmit = (Button)findViewById(R.id.submit);
         arrayList = new ArrayList<>();
-        recyclerView = (RecyclerView)findViewById(R.id.recyclerView);
-        recyclerView.setHasFixedSize(true);
+        rRecyclerView = (RecyclerView)findViewById(R.id.recyclerView);
+        rRecyclerView.setHasFixedSize(true);
+        tDesignName = (EditText)findViewById(R.id.design_name);
+        ArrayList<String> companies = new ArrayList<>();
 
-        designName = (EditText)findViewById(R.id.design_name);
-
-        designName.addTextChangedListener(new TextWatcher() {
+        pProgressBar.setVisibility(View.VISIBLE);
+        tDesignName.addTextChangedListener(new TextWatcher() {
             @Override
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) { }
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+            }
 
             @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) { }
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+            }
 
             @Override
             public void afterTextChanged(Editable s) {
@@ -76,20 +84,22 @@ public class EditStock extends AppCompatActivity implements EditStock_MyAdapter.
         });
 
         GridLayoutManager gridLayoutManager = new GridLayoutManager(this,1);
-        recyclerView.setLayoutManager(gridLayoutManager);
+        rRecyclerView.setLayoutManager(gridLayoutManager);
 
-        databaseReference = FirebaseDatabase.getInstance().getReference("designs");
+        mFirebaseAuth = FirebaseAuth.getInstance();
+        mFirebaseUser = mFirebaseAuth.getCurrentUser();
 
-        options = new FirebaseRecyclerOptions.Builder<DesignInformation>()
-                .setQuery(databaseReference,DesignInformation.class)
+        mDatabaseReference = FirebaseDatabase.getInstance().getReference().child(mFirebaseUser.getUid()).child("StockInformation").child("Design");
+
+        mOptions = new FirebaseRecyclerOptions.Builder<DesignInformation>()
+                .setQuery(mDatabaseReference, DesignInformation.class)
                 .build();
 
-        adapter = new FirebaseRecyclerAdapter<DesignInformation, DesignViewHolder>(options){
+        mAdapter = new FirebaseRecyclerAdapter<DesignInformation, DesignViewHolder>(mOptions) {
             @Override
             protected void onBindViewHolder(@NonNull DesignViewHolder holder, int position, @NonNull DesignInformation model) {
+                pProgressBar.setVisibility(View.GONE);
                 holder.name.setText(model.getName());
-                holder.company.setText(model.getCompany());
-                holder.size.setText(model.getSize());
                 holder.quantity.setText(model.getQuantity());
             }
 
@@ -97,26 +107,24 @@ public class EditStock extends AppCompatActivity implements EditStock_MyAdapter.
             @Override
             public DesignViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
                 View view = LayoutInflater.from(parent.getContext())
-                        .inflate(R.layout.activity_view_stock_card,parent,false);
+                        .inflate(R.layout.activity_view_stock_card, parent, false);
                 return new DesignViewHolder(view);
             }
         };
 
-        adapter.startListening();
-        recyclerView.setAdapter(adapter);
+        mAdapter.startListening();
+        rRecyclerView.setAdapter(mAdapter);
 
-        submit.setOnClickListener(new View.OnClickListener() {
+        bBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(EditStock.this,MainActivity.class);
-                startActivity(i);
-                finish();
+                onBackPressed();
             }
         });
     }
 
     private void search(String s) {
-        Query query = databaseReference.orderByChild("name")
+        Query query = mDatabaseReference.orderByChild("name")
                 .startAt(s)
                 .endAt(s + "\uf8ff");
 
@@ -126,12 +134,12 @@ public class EditStock extends AppCompatActivity implements EditStock_MyAdapter.
                 if(dataSnapshot.hasChildren()){
                     arrayList.clear();
                     for(DataSnapshot dss: dataSnapshot.getChildren()){
-                        final DesignInformation designInformation = dss.getValue(DesignInformation.class);
-                        arrayList.add(designInformation);
+                         final DesignInformation designInformation = dss.getValue(DesignInformation.class);
+                         arrayList.add(designInformation);
                     }
-                    EditStock_MyAdapter editStock_myAdapter = new EditStock_MyAdapter(getApplicationContext(),arrayList);
-                    recyclerView.setAdapter(editStock_myAdapter);
-                    editStock_myAdapter.notifyDataSetChanged();
+                    EditStock_MyAdapter viewStock_myAdapter = new EditStock_MyAdapter(getApplicationContext(),arrayList);
+                    rRecyclerView.setAdapter(viewStock_myAdapter);
+                    viewStock_myAdapter.notifyDataSetChanged();
 
                     EditStock_MyAdapter.setOnDesignClickListener(EditStock.this);
                 }
@@ -146,16 +154,14 @@ public class EditStock extends AppCompatActivity implements EditStock_MyAdapter.
 
     @Override
     public void onDesignClick(int position) {
-        Intent editItemIntent = new Intent(this, EditStock_EditItem.class);
+        Intent editItemIntent = new Intent(this, EditStock_Design.class);
         DesignInformation clickedItem = arrayList.get(position);
 
         editItemIntent.putExtra(EXTRA_NAME, clickedItem.getName());
-        editItemIntent.putExtra(EXTRA_COMPANY, clickedItem.getCompany());
-        editItemIntent.putExtra(EXTRA_SIZE, clickedItem.getSize());
-        editItemIntent.putExtra(EXTRA_QUANTIY, clickedItem.getQuantity());
 
         startActivity(editItemIntent);
     }
+
 }
 
 

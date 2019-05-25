@@ -9,13 +9,24 @@ import android.widget.TextView;
 
 import com.hoc.stockapp.Model.DesignInformation;
 import com.hoc.stockapp.R;
+import com.hoc.stockapp.ViewStock;
 
 import java.util.ArrayList;
 
 public class ViewStock_MyAdapter extends RecyclerView.Adapter<ViewStock_MyAdapter.MyAdapterViewHolder> {
 
+    private static OnDesignClickListener mListener;
     public Context c;
     public ArrayList<DesignInformation> arrayList;
+
+    public interface OnDesignClickListener{
+        void onDesignClick(int Position);
+    }
+
+    public static void setOnDesignClickListener(OnDesignClickListener listener){
+        mListener = listener;
+    }
+
     public ViewStock_MyAdapter(Context c, ArrayList<DesignInformation> arrayList){
         this.c = c;
         this.arrayList = arrayList;
@@ -35,7 +46,6 @@ public class ViewStock_MyAdapter extends RecyclerView.Adapter<ViewStock_MyAdapte
     public MyAdapterViewHolder onCreateViewHolder(ViewGroup parent, int viewType){
         View v = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.activity_view_stock_card,parent,false);
-
         return new MyAdapterViewHolder(v);
     }
 
@@ -45,23 +55,30 @@ public class ViewStock_MyAdapter extends RecyclerView.Adapter<ViewStock_MyAdapte
         DesignInformation designInformation = arrayList.get(position);
 
         holder.n.setText(designInformation.getName());
-        holder.c.setText(designInformation.getCompany());
-        holder.s.setText(designInformation.getSize());
         holder.q.setText(designInformation.getQuantity());
     }
 
     public class MyAdapterViewHolder extends RecyclerView.ViewHolder{
 
-        public TextView n, c, s, q;
+        public TextView n, q;
 
         public MyAdapterViewHolder(View itemView){
             super(itemView);
 
             n = (TextView)itemView.findViewById(R.id.name);
-            c = (TextView)itemView.findViewById(R.id.company);
-            s = (TextView)itemView.findViewById(R.id.size);
             q = (TextView)itemView.findViewById(R.id.quantity);
 
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    if(mListener != null){
+                        int position = getAdapterPosition();
+                        if(position != RecyclerView.NO_POSITION){
+                            mListener.onDesignClick(position);
+                        }
+                    }
+                }
+            });
         }
     }
 }

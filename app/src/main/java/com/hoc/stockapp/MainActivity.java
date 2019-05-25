@@ -1,111 +1,50 @@
 package com.hoc.stockapp;
 
-import android.app.DownloadManager;
-import android.content.Context;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.view.Window;
 import android.widget.Button;
-import android.widget.TextView;
 
-import com.google.android.gms.tasks.OnFailureListener;
-import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.firebase.storage.FirebaseStorage;
-import com.google.firebase.storage.StorageReference;
-
-import static android.os.Environment.DIRECTORY_DOWNLOADS;
+import com.google.firebase.auth.FirebaseAuth;
 
 public class MainActivity extends AppCompatActivity {
 
-    private TextView textView1;
-    private Button view_stock, edit_stock, add_item, update_design, download_app;
-    FirebaseStorage firebaseStorage;
-    StorageReference storageReference, sRef;
+    private Button bSingUp, bLogIn;
+    private FirebaseAuth mAuth;
 
-    protected void onCreate(Bundle savedInstanceState){
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        mAuth = FirebaseAuth.getInstance();
+        if (mAuth.getCurrentUser() != null) {
+            startActivity(new Intent(MainActivity.this, Home.class));
+            finish();
+        }
+
         setContentView(R.layout.activity_main);
 
-        view_stock = (Button)findViewById(R.id.view_stock);
-        edit_stock = (Button)findViewById(R.id.edit_stock);
-        add_item = (Button)findViewById(R.id.add_design);
-        update_design = (Button)findViewById(R.id.update_design);
-        download_app = (Button)findViewById(R.id.download_app);
+        bSingUp = (Button) findViewById(R.id.signup);
+        bLogIn = (Button) findViewById(R.id.login);
 
-
-        view_stock.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v){
-                Intent i =new Intent(MainActivity.this, ViewStock.class);
-                startActivity(i);
-                finish();
-            }
-        });
-
-        edit_stock.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                startActivity(new Intent(MainActivity.this, EditStock.class));
-            }
-        });
-
-        add_item.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                Intent i = new Intent(MainActivity.this,AddItem.class);
-                startActivity(i);
-                finish();
-            }
-        });
-
-        update_design.setOnClickListener(new View.OnClickListener() {
+        bSingUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, UpdateDesignInfo.class);
-                startActivity(i);
-                finish();
+                startActivity(new Intent(MainActivity.this, SignUp.class));
             }
         });
 
-        download_app.setOnClickListener(new View.OnClickListener() {
+        bLogIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                download();
+                startActivity(new Intent(MainActivity.this, LogIn.class));
             }
         });
 
     }
 
-    private void download() {
-        storageReference = firebaseStorage.getInstance().getReference();
-        sRef = storageReference.child("HOC_update.apk");
-        sRef.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
-            @Override
-            public void onSuccess(Uri uri) {
-                String url = uri.toString();
-                downloadFile(MainActivity.this, "HOC_update.apk", ".apk", DIRECTORY_DOWNLOADS, url);
-            }
-        }).addOnFailureListener(new OnFailureListener() {
-            @Override
-            public void onFailure(@NonNull Exception e) {
-
-            }
-        });
+    @Override
+    public void onBackPressed() {
+        finish();
     }
-
-    private void downloadFile(Context context, String fileName, String fileExtension, String destinationDirectory, String url) {
-        DownloadManager downloadManager = (DownloadManager) context.getSystemService(Context.DOWNLOAD_SERVICE);
-        Uri uri = Uri.parse(url);
-        DownloadManager.Request request = new DownloadManager.Request(uri);
-
-        request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
-        request.setDestinationInExternalFilesDir(context, destinationDirectory, fileName + fileExtension);
-
-        downloadManager.enqueue(request);
-    }
-
 }

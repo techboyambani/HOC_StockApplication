@@ -17,32 +17,25 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".AddItem"
+        <activity android:name=".Home"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".LogIn"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".SignUp"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".AddCompany"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".AddCompanySize"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".AddCompanyDesign"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".ViewStock"
             android:windowSoftInputMode="adjustPan" />
-        <activity
-            android:name=".ViewStock"
+        <activity android:name=".ViewStock_Design"
             android:windowSoftInputMode="adjustPan" />
-        <activity
-            android:name=".EditStock"
+        <activity android:name=".EditStock"
             android:windowSoftInputMode="adjustPan" />
-        <activity
-            android:name=".EditStock_EditItem"
-            android:windowSoftInputMode="adjustPan" />
-        <activity
-            android:name=".EditDesign"
-            android:windowSoftInputMode="adjustPan" />
-        <activity
-            android:name=".EditDesign_EditName"
-            android:windowSoftInputMode="adjustPan" />
-        <activity
-            android:name=".UpdateDesignInfo"
-            android:windowSoftInputMode="adjustPan" />
-        <activity
-            android:name=".DeleteDesign"
-            android:windowSoftInputMode="adjustPan" />
-        <activity
-            android:name=".DeleteDesign_Confirm"
+        <activity android:name=".EditStock_Design"
             android:windowSoftInputMode="adjustPan" />
     </application>
 

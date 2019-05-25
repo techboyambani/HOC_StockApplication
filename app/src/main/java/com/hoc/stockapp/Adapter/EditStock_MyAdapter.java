@@ -1,22 +1,12 @@
 package com.hoc.stockapp.Adapter;
 
-import android.app.AlertDialog;
 import android.content.Context;
-import android.content.DialogInterface;
-import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
 import com.hoc.stockapp.Model.DesignInformation;
 import com.hoc.stockapp.R;
 
@@ -29,7 +19,7 @@ public class EditStock_MyAdapter extends RecyclerView.Adapter<EditStock_MyAdapte
     public ArrayList<DesignInformation> arrayList;
 
     public interface OnDesignClickListener{
-        void onDesignClick(int position);
+        void onDesignClick(int Position);
     }
 
     public static void setOnDesignClickListener(OnDesignClickListener listener){
@@ -64,21 +54,17 @@ public class EditStock_MyAdapter extends RecyclerView.Adapter<EditStock_MyAdapte
         DesignInformation designInformation = arrayList.get(position);
 
         holder.n.setText(designInformation.getName());
-        holder.c.setText(designInformation.getCompany());
-        holder.s.setText(designInformation.getSize());
         holder.q.setText(designInformation.getQuantity());
     }
 
     public class MyAdapterViewHolder extends RecyclerView.ViewHolder{
 
-        public TextView n, c, s, q;
+        public TextView n, q;
 
         public MyAdapterViewHolder(View itemView){
             super(itemView);
 
             n = (TextView)itemView.findViewById(R.id.name);
-            c = (TextView)itemView.findViewById(R.id.company);
-            s = (TextView)itemView.findViewById(R.id.size);
             q = (TextView)itemView.findViewById(R.id.quantity);
 
             itemView.setOnClickListener(new View.OnClickListener() {
