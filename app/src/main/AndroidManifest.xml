@@ -10,32 +10,32 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name="com.hoc.stockapp.MainActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Home"
+        <activity android:name="com.hoc.stockapp.Home"
             android:windowSoftInputMode="adjustPan"/>
-        <activity android:name=".LogIn"
+        <activity android:name="com.hoc.stockapp.LogIn"
             android:windowSoftInputMode="adjustPan"/>
-        <activity android:name=".SignUp"
+        <activity android:name="com.hoc.stockapp.SignUp"
             android:windowSoftInputMode="adjustPan"/>
-        <activity android:name=".AddCompany"
+        <activity android:name="com.hoc.stockapp.AddCompany"
             android:windowSoftInputMode="adjustPan"/>
-        <activity android:name=".AddCompanySize"
+        <activity android:name="com.hoc.stockapp.AddCompanySize"
             android:windowSoftInputMode="adjustPan"/>
-        <activity android:name=".AddCompanyDesign"
+        <activity android:name="com.hoc.stockapp.AddCompanyDesign"
             android:windowSoftInputMode="adjustPan"/>
-        <activity android:name=".ViewStock"
+        <activity android:name="com.hoc.stockapp.ViewStock"
             android:windowSoftInputMode="adjustPan" />
-        <activity android:name=".ViewStock_Design"
+        <activity android:name="com.hoc.stockapp.ViewStock_Design"
             android:windowSoftInputMode="adjustPan" />
-        <activity android:name=".EditStock"
+        <activity android:name="com.hoc.stockapp.EditStock"
             android:windowSoftInputMode="adjustPan" />
-        <activity android:name=".EditStock_Design"
+        <activity android:name="com.hoc.stockapp.EditStock_Design"
             android:windowSoftInputMode="adjustPan" />
     </application>
 

@@ -5,15 +5,11 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ProgressBar;
-import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -25,11 +21,6 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
-import com.hoc.stockapp.Model.DesignInformation;
-
-import java.util.ArrayList;
-
-import static com.hoc.stockapp.ViewStock.EXTRA_NAME;
 
 public class EditStock_Design extends AppCompatActivity {
 
@@ -49,11 +40,11 @@ public class EditStock_Design extends AppCompatActivity {
 
         Intent viewDesignIntent = getIntent();
 
-        final String name = viewDesignIntent.getStringExtra(EXTRA_NAME);
+        final String name = viewDesignIntent.getStringExtra(ViewStock.EXTRA_NAME);
 
         textQuantity = (EditText) findViewById(R.id.quantity);
-        textCompany = (TextView) findViewById(R.id.company);
-        textSize = (TextView) findViewById(R.id.size);
+        textCompany = (TextView) findViewById(R.id.textCompany);
+        textSize = (TextView) findViewById(R.id.textSize);
         textDescription = (EditText) findViewById(R.id.description);
         textBatchA = (EditText) findViewById(R.id.batch_a);
         textBatchB = (EditText) findViewById(R.id.batch_b);
@@ -89,8 +80,8 @@ public class EditStock_Design extends AppCompatActivity {
                 textBatchB.setText(batch_b);
                 textBatchC.setText(batch_c);
                 textBatchD.setText(batch_d);
-//                textCompany.setText(company);
-  //              textSize.setText(size);
+                textCompany.setText(company);
+                textSize.setText(size);
             }
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
@@ -109,27 +100,38 @@ public class EditStock_Design extends AppCompatActivity {
                 final String batch_d = textBatchD.getText().toString().trim();
 
                 if (TextUtils.isEmpty(quantity)) {
-                    Toast.makeText(getApplicationContext(), "Enter design name.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Enter correct quantity.", Toast.LENGTH_SHORT).show();
                     return;
                 }
                 if (TextUtils.isEmpty(description)) {
-                    Toast.makeText(getApplicationContext(), "Enter design name.", Toast.LENGTH_SHORT).show();
+                    textDescription.setText("--");
                     return;
                 }
                 if (TextUtils.isEmpty(batch_a)) {
-                    Toast.makeText(getApplicationContext(), "Enter design quantity.", Toast.LENGTH_SHORT).show();
+                    textBatchA.setText(quantity);
                     return;
                 }
                 if (TextUtils.isEmpty(batch_b)) {
-                    Toast.makeText(getApplicationContext(), "Enter design quantity.", Toast.LENGTH_SHORT).show();
+                    textBatchD.setText("0");
                     return;
                 }
                 if (TextUtils.isEmpty(batch_c)) {
-                    Toast.makeText(getApplicationContext(), "Enter design quantity.", Toast.LENGTH_SHORT).show();
+                    textBatchD.setText("0");
                     return;
                 }
                 if (TextUtils.isEmpty(batch_d)) {
-                    Toast.makeText(getApplicationContext(), "Enter design quantity.", Toast.LENGTH_SHORT).show();
+                    textBatchD.setText("0");
+                    return;
+                }
+
+                int totalQuan = Integer.parseInt(quantity);
+                int batchA = Integer.parseInt(batch_a);
+                int batchB = Integer.parseInt(batch_b);
+                int batchC = Integer.parseInt(batch_c);
+                int batchD = Integer.parseInt(batch_d);
+
+                if((batchA + batchB + batchC + batchD) != totalQuan){
+                    Toast.makeText(getApplicationContext(), "Enter correct batch quantity.", Toast.LENGTH_SHORT).show();
                     return;
                 }
 

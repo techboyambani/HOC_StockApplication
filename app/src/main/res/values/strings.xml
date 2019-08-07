@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">HOC Stock App</string>
+    <string name="app_name">Stock Manager</string>
     <string name="title_home">Home</string>
     <string name="title_view">View Stock</string>
     <string name="title_edit">Edit Stock</string>
@@ -65,12 +65,13 @@
     <!--activity_add_company_design.xml-->
     <string name="add_new_design">Add New Design</string>
     <string name="choose_size">Choose your size</string>
-    <string name="enter_design_quantity">Enter Design Quantity</string>
+    <string name="enter_design_quantity">Quantity</string>
+    <string name="upload_image">Image</string>
 
     <!--activity_add_item.xml-->
     <string name="add_item">Add Item</string>
     <string name="select_size">Select Size</string>
-    <string name="enter_tile_name">Enter Name of Design</string>
+    <string name="enter_tile_name">Design Name</string>
     <string name="enter_quanity">Quantity</string>
     <string name="submit">Submit</string>
 
@@ -108,7 +109,7 @@
 
     <!--activity_view_stock.xml-->
     <string name="select_sizes">Select Sizes</string>
-    <string name="enter_design_name">Enter Design Name</string>
+    <string name="enter_design_name">Name</string>
     <string name="search">Search</string>
     <string name="select_company">Select Comapny</string>
     <string name="back_home">Back</string>

@@ -9,7 +9,6 @@ import android.widget.TextView;
 
 import com.hoc.stockapp.Model.DesignInformation;
 import com.hoc.stockapp.R;
-import com.hoc.stockapp.ViewStock;
 
 import java.util.ArrayList;
 
